@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="testing table" max_length="40" name="u_testing_table" type="collection">
+        <element label="test" max_length="40" name="u_test" type="string"/>
+        <element label="test2" max_length="40" name="u_test2" type="string"/>
+        <element label="test3" max_length="40" name="u_test3" type="string"/>
+    </element>
+</database>
