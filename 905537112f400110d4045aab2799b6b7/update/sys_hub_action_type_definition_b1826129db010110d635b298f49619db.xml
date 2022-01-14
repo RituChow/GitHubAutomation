@@ -2,13 +2,11 @@
     <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <action_status/>
         <action_template/>
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -83,7 +81,6 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Testing instance error">b1826129db010110d635b298f49619db</action>
         <cid>0770b3f5-223b-42ba-bac3-1e815dfef522</cid>
-        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -474,108 +471,4 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=b1826129db010110d635b298f49619db^sys_idNOT IN0b5329e9db010110d635b298f4961945"/>
-    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Testing instance error">b1826129db010110d635b298f49619db</action_type_id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-14 11:50:51</sys_created_on>
-        <sys_id>0b5329e9db010110d635b298f4961945</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-14 11:50:51</sys_updated_on>
-    </sys_hub_action_status_metadata>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_b1826129db010110d635b298f49619db^sys_idNOT IN3e5329e9db010110d635b298f4961914"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>instance</element>
-        <help/>
-        <hint/>
-        <label>instance</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_b1826129db010110d635b298f49619db</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-14 11:50:50</sys_created_on>
-        <sys_id>3e5329e9db010110d635b298f4961914</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-14 11:50:50</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_b1826129db010110d635b298f49619db^sys_idNOT IN365329e9db010110d635b298f496193a,835329e9db010110d635b298f4961940,b65329e9db010110d635b298f4961934"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>priority</element>
-        <help/>
-        <hint/>
-        <label>priority</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_output_b1826129db010110d635b298f49619db</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-14 11:50:50</sys_created_on>
-        <sys_id>365329e9db010110d635b298f496193a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-14 11:50:50</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>sysid</element>
-        <help/>
-        <hint/>
-        <label>SysID</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_output_b1826129db010110d635b298f49619db</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-14 11:50:50</sys_created_on>
-        <sys_id>835329e9db010110d635b298f4961940</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-14 11:50:50</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>number</element>
-        <help/>
-        <hint/>
-        <label>number</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_output_b1826129db010110d635b298f49619db</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-14 11:50:50</sys_created_on>
-        <sys_id>b65329e9db010110d635b298f4961934</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-14 11:50:50</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
 </record_update>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.AddUserToGroup</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AddUserToGroup</name>
+        <script><![CDATA[var AddUserToGroup = Class.create();
+AddUserToGroup.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+
+
+	getAllgroup: function() {
+		var inputs = {};
+		inputs['instance'] = "https://dev79811.service-now.com/" ;
+
+		var result = sn_fd.FlowAPI.getRunner()
+		.action('global.get_all_groups_from_instance')
+		.inForeground()
+		.withInputs(inputs)
+		.run();
+
+		var outputs = result.getOutputs();
+		var groupnames = outputs['groupname'].toString();
+		
+
+		return groupnames;
+
+	},
+
+
+
+	type: 'AddUserToGroup'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-07 10:55:05</sys_created_on>
+        <sys_id>0cff01d787b00110aae764280cbb3590</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>AddUserToGroup</sys_name>
+        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name>sys_script_include_0cff01d787b00110aae764280cbb3590</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:34:08</sys_updated_on>
+    </sys_script_include>
+</record_update>

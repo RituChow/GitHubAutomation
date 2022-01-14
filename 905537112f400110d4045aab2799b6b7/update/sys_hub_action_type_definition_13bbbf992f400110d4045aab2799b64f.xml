@@ -10,7 +10,7 @@
         <copied_from/>
         <copied_from_name/>
         <description/>
-        <ih_action>true</ih_action>
+        <ih_action>false</ih_action>
         <internal_name>create_github_pull_request</internal_name>
         <label_cache>[{"name":"{{action.frombranch}}","label":"action➛fromBranch","type":"action","ref":""},{"name":"{{action.tobranch}}","label":"action➛tobranch","type":"action","ref":""},{"name":"{{action.repo}}","label":"action➛repo","type":"action","ref":""},{"name":"{{action.user}}","label":"action➛user","type":"action","ref":""},{"name":"{{step[f2d4d085-8817-4955-82ad-bd666ed1d76f].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[f2d4d085-8817-4955-82ad-bd666ed1d76f].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[f2d4d085-8817-4955-82ad-bd666ed1d76f].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[77317ce6-dc99-4c75-8623-9065d96c57ca].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[77317ce6-dc99-4c75-8623-9065d96c57ca].message}}","label":"step➛Script step➛message","type":"step","ref":""},{"name":"{{step[77317ce6-dc99-4c75-8623-9065d96c57ca].pullnumber}}","label":"step➛Script step➛pullnumber","type":"step","ref":""},{"name":"{{step[77317ce6-dc99-4c75-8623-9065d96c57ca].statuscode}}","label":"step➛Script step➛statuscode","type":"step","ref":""}]</label_cache>
         <master_snapshot>37a9c4e92f800110d4045aab2799b672</master_snapshot>
@@ -18,14 +18,14 @@
         <natlang/>
         <outputs/>
         <outputs/>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-25 11:15:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>13bbbf992f400110d4045aab2799b64f</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>create Github pull request</sys_name>
         <sys_overrides/>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_13bbbf992f400110d4045aab2799b64f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-25 12:22:08</sys_updated_on>
+        <sys_updated_on>2022-01-14 11:56:28</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -955,7 +955,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=be7211e1-6da1-4316-aa18-ee67a02374ac</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1013,14 +1013,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-25 11:24:13</sys_created_on>
         <sys_id>15cdff1d2f400110d4045aab2799b6ad</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-25 11:29:20</sys_updated_on>
+        <sys_updated_on>2021-11-25 12:55:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1621,7 +1621,7 @@
         <sys_created_on>2021-11-25 11:24:12</sys_created_on>
         <sys_id>41cdff1d2f400110d4045aab2799b68c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>repo</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
@@ -1644,7 +1644,7 @@
         <sys_created_on>2021-11-25 11:24:11</sys_created_on>
         <sys_id>4dcdff1d2f400110d4045aab2799b67e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>fromBranch</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
@@ -1667,7 +1667,7 @@
         <sys_created_on>2021-11-25 11:24:12</sys_created_on>
         <sys_id>c5cdff1d2f400110d4045aab2799b685</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>tobranch</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
@@ -1690,7 +1690,7 @@
         <sys_created_on>2021-11-25 11:24:12</sys_created_on>
         <sys_id>d9cdff1d2f400110d4045aab2799b692</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>user</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
@@ -1714,7 +1714,7 @@
         <sys_created_on>2021-11-25 11:51:27</sys_created_on>
         <sys_id>68040ce12f800110d4045aab2799b6ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>pullnumber</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
@@ -1737,7 +1737,7 @@
         <sys_created_on>2021-11-25 12:15:18</sys_created_on>
         <sys_id>bd7940e92f800110d4045aab2799b6a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>statuscode</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
@@ -1760,7 +1760,7 @@
         <sys_created_on>2021-11-25 11:41:33</sys_created_on>
         <sys_id>dfb1c4612f800110d4045aab2799b6f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>message</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
@@ -3406,11 +3406,11 @@
         <sys_created_on>2021-11-25 12:16:16</sys_created_on>
         <sys_id>33a9c4e92f800110d4045aab2799b687</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>repo</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_37a9c4e92f800110d4045aab2799b672_repo_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-25 12:16:16</sys_updated_on>
         <url/>
@@ -3429,11 +3429,11 @@
         <sys_created_on>2021-11-25 12:16:15</sys_created_on>
         <sys_id>3fa9c4e92f800110d4045aab2799b67a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>fromBranch</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_37a9c4e92f800110d4045aab2799b672_frombranch_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-25 12:16:15</sys_updated_on>
         <url/>
@@ -3452,11 +3452,11 @@
         <sys_created_on>2021-11-25 12:16:16</sys_created_on>
         <sys_id>b3a9c4e92f800110d4045aab2799b68d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>user</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_37a9c4e92f800110d4045aab2799b672_user_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-25 12:16:16</sys_updated_on>
         <url/>
@@ -3475,11 +3475,11 @@
         <sys_created_on>2021-11-25 12:16:15</sys_created_on>
         <sys_id>bfa9c4e92f800110d4045aab2799b680</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>tobranch</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_37a9c4e92f800110d4045aab2799b672_tobranch_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-25 12:16:15</sys_updated_on>
         <url/>
@@ -3499,11 +3499,11 @@
         <sys_created_on>2021-11-25 12:16:17</sys_created_on>
         <sys_id>10b908e92f800110d4045aab2799b605</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>pullnumber</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_37a9c4e92f800110d4045aab2799b672_pullnumber_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-25 12:16:17</sys_updated_on>
         <url/>
@@ -3522,11 +3522,11 @@
         <sys_created_on>2021-11-25 12:16:17</sys_created_on>
         <sys_id>5cb9c4e92f800110d4045aab2799b6fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>message</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_37a9c4e92f800110d4045aab2799b672_message_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-25 12:16:17</sys_updated_on>
         <url/>
@@ -3545,11 +3545,11 @@
         <sys_created_on>2021-11-25 12:16:18</sys_created_on>
         <sys_id>d0b908e92f800110d4045aab2799b60b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>statuscode</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_37a9c4e92f800110d4045aab2799b672_statuscode_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-25 12:16:18</sys_updated_on>
         <url/>
