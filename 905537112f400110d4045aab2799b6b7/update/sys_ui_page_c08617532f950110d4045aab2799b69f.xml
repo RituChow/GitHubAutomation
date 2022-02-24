@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[//alert("${sysparm_filter}");
+function handleApply()
+{
+	//var table_name=document.getElementById("table_name").value;
+	var filter = "${sysparm_filter}";
+	var table = "${sysparm_table}";
+
+	var msg='';
+	// 	if( table_name=='') 
+	// 	{
+	// 		document.getElementById("info").innerHTML='<font color="red"> Please select atleast one field </font>';
+	// 		return false;
+	// 	}
+	// 	else {
+
+	var ga = new GlideAjax('global.getRecord');
+	ga.addParam('sysparm_name','getRecordCount');
+	ga.addParam('sysparm_table',table);
+	ga.addParam('sysparm_filter',filter);
+
+	ga.getXML(getResult);
+
+	function getResult(response) {
+
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+
+		if(answer == -1 || answer == null)
+			document.getElementById("info").innerHTML='<font color="red">You are not allowed to access these records</font><br/><br/><br/>';
+		else{
+			var text = '<font color="green">You have permission to access '+answer+' record(s)</font><br/><br/><br/>';
+
+			document.getElementById("info").innerHTML=text;
+		}
+	}
+	//}
+
+}
+
+function continueCancel(){  
+	//Close the dialog window  
+	GlideDialogWindow.get().destroy();  
+	return false;  
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint/>
+        <html><![CDATA[<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<style>
+		.container-td {
+		padding-top: 5px;
+		}
+
+		.top-buffer {
+		padding-top: 3px;
+		}
+
+		.bottom-buffer {
+		padding-bottom: 5px;
+		}
+
+		#ok-cancel-btns {
+		padding-left: 15px;
+		padding-right: 15px;
+		}
+
+		#test_progress {
+		display: none;
+		}
+
+		#test_successful {
+		display: none;
+		}
+
+		#test_failed {
+		display: none;
+		}
+
+		.credentialSuccess {
+		font-size:200%;
+		vertical-align:sub;
+		color:#71e279;
+		}
+
+		.credentialFail {
+		font-size:200%;
+		vertical-align:sub;
+		color:#f95050;
+		}
+
+		.centerAlignContent {
+		text-align: center;
+		}
+
+		#cancelButton {
+		min-width: 5em;
+		}
+
+		#okButton {
+		min-width: 5em;
+		}
+
+		#retryButton {
+		min-width: 5em;
+		margin-right: 5px;
+		}
+	</style>
+	<table style = "padding: 70px;" width="100%">
+		<!-- <tr>
+   <td><b><font color='blue'>Check record(s)</font></b></td>
+   <td align="center" valign="middle" class="container-td">
+   <g:ui_reference id="table_name" name="table_name" query="${sysparm_filter}" table="${sysparm_table}" completer="AJAXTableCompleter"/>		 
+   </td>
+  </tr> -->
+		<tr><td colspan = "2"><br/><br/><br/></td></tr>
+		<tr>
+			<td colspan="2"><div id="info"></div></td>
+		</tr>
+		<tr>
+			<td><button id="retryButton" onclick="handleApply();" class="btn btn-primary"><b>Check Access</b></button></td>
+			<td><button id="cancelButton" onclick="continueCancel();" class="btn btn-default">Close/Cancel</button></td>
+		</tr>
+	</table>	
+</j:jelly>
+]]></html>
+        <name>accessTest</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-01 16:59:52</sys_created_on>
+        <sys_id>c08617532f950110d4045aab2799b69f</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>accessTest</sys_name>
+        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name>sys_ui_page_c08617532f950110d4045aab2799b69f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-03 15:14:07</sys_updated_on>
+    </sys_ui_page>
+</record_update>
