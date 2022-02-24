@@ -2,13 +2,11 @@
     <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <action_status/>
         <action_template/>
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -71,7 +69,6 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="CreateLabel">65c0e51b2f900110d4045aab2799b6a3</action>
         <cid>4048b1c2-f322-4dd9-b6a4-2eae66610448</cid>
-        <error_handling_type/>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -135,18 +132,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0fb3e9db2f900110d4045aab2799b604"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>0fb3e9db2f900110d4045aab2799b604</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-12-13 15:34:47</sys_created_on>
-        <sys_id>1fb3e9db2f900110d4045aab2799b633</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-12-13 15:34:47</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>errormessage</field>
         <id>0fb3e9db2f900110d4045aab2799b604</id>
         <sys_created_by>admin</sys_created_by>
@@ -171,18 +156,6 @@
         <value>{{step[e3324a31-85f9-4e6c-9eec-8545c3cdacbe].response_body}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>0fb3e9db2f900110d4045aab2799b604</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-12-13 15:34:47</sys_created_on>
-        <sys_id>dfb3e9db2f900110d4045aab2799b633</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-12-13 15:34:47</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>statuscode</field>
         <id>0fb3e9db2f900110d4045aab2799b604</id>
         <sys_created_by>admin</sys_created_by>
@@ -194,8 +167,6 @@
         <table>var__m_sys_hub_step_ext_input_0fb3e9db2f900110d4045aab2799b604</table>
         <value>{{step[e3324a31-85f9-4e6c-9eec-8545c3cdacbe].status_code}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_0fb3e9db2f900110d4045aab2799b604^id=0fb3e9db2f900110d4045aab2799b604"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=0fb3e9db2f900110d4045aab2799b604"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=0fb3e9db2f900110d4045aab2799b604^sys_idNOT IN87b3e9db2f900110d4045aab2799b60b,c7b3e9db2f900110d4045aab2799b610,c7b3e9db2f900110d4045aab2799b614"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -606,7 +577,6 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="CreateLabel">65c0e51b2f900110d4045aab2799b6a3</action>
         <cid>e3324a31-85f9-4e6c-9eec-8545c3cdacbe</cid>
-        <error_handling_type/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -738,7 +708,6 @@
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_9b03ed9b2f900110d4045aab2799b6a7^id=9b03ed9b2f900110d4045aab2799b6a7"/>
     <sys_element_mapping action="delete_multiple" query="id=9b03ed9b2f900110d4045aab2799b6a7"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>

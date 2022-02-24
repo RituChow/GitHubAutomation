@@ -92,7 +92,7 @@
         <update_guid_history>9562daada4c9011050f802c8233a6625:344911576</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Release Automation">acb856e52f0d0110d4045aab2799b62a</sys_audit_delete>
+        <sys_audit_delete display_value="">acb856e52f0d0110d4045aab2799b62a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-14 15:43:53</sys_created_on>
