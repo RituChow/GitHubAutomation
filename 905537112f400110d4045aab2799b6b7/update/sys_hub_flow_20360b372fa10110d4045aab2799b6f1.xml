@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>20360b372fa10110d4045aab2799b6f1</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Create/Update group in dev67465</sys_name>
         <sys_overrides/>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name>sys_hub_flow_20360b372fa10110d4045aab2799b6f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:26:35</sys_updated_on>
+        <sys_updated_on>2022-02-24 11:40:04</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=20360b372fa10110d4045aab2799b6f1"/>
@@ -155,7 +155,6 @@
         <value>^EQ</value>
         <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=f2ef8f332fe10110d4045aab2799b6ef"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=20360b372fa10110d4045aab2799b6f1^sys_idNOT IN64368b372fa10110d4045aab2799b6b3"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>20360b372fa10110d4045aab2799b6f1</id>
@@ -415,8 +414,7 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=20360b372fa10110d4045aab2799b6f1^sys_idNOT IN3235d37b2fe10110d4045aab2799b63f,cbefcf332fe10110d4045aab2799b61d,e635d37b2fe10110d4045aab2799b62d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Add Group in dev67465">e566cf372fa10110d4045aab2799b648</action_type>
+        <action_type display_value="">e566cf372fa10110d4045aab2799b648</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>e566cf372fa10110d4045aab2799b648</compiled_snapshot>
@@ -435,47 +433,9 @@
         <ui_id>210a0750-5118-41e6-b195-3b535c6a44fe</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3235d37b2fe10110d4045aab2799b63f"/>
-    <sys_element_mapping action="delete_multiple" query="id=3235d37b2fe10110d4045aab2799b63f"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>groupdesc</field>
-        <id>3235d37b2fe10110d4045aab2799b63f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:26:05</sys_created_on>
-        <sys_id>b635d37b2fe10110d4045aab2799b640</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:26:05</sys_updated_on>
-        <table>var__m_sys_hub_action_input_e566cf372fa10110d4045aab2799b648</table>
-        <value>{{Created or Updated_1.current.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>groupname</field>
-        <id>3235d37b2fe10110d4045aab2799b63f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:26:05</sys_created_on>
-        <sys_id>3e35d37b2fe10110d4045aab2799b640</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:26:05</sys_updated_on>
-        <table>var__m_sys_hub_action_input_e566cf372fa10110d4045aab2799b648</table>
-        <value>{{Created or Updated_1.current.name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sysid</field>
-        <id>3235d37b2fe10110d4045aab2799b63f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:26:05</sys_created_on>
-        <sys_id>7a35d37b2fe10110d4045aab2799b640</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:26:05</sys_updated_on>
-        <table>var__m_sys_hub_action_input_e566cf372fa10110d4045aab2799b648</table>
-        <value>{{Created or Updated_1.current.sys_id}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Update Group in dev67465">732fcfff2fa10110d4045aab2799b660</action_type>
+        <action_type display_value="">732fcfff2fa10110d4045aab2799b660</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>732fcfff2fa10110d4045aab2799b660</compiled_snapshot>
@@ -494,71 +454,9 @@
         <ui_id>41170161-4285-410b-a98c-94ed32702ba0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cbefcf332fe10110d4045aab2799b61d"/>
-    <sys_element_mapping action="delete_multiple" query="id=cbefcf332fe10110d4045aab2799b61d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>email</field>
-        <id>cbefcf332fe10110d4045aab2799b61d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:09:46</sys_created_on>
-        <sys_id>337197f32fe10110d4045aab2799b67f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:09:46</sys_updated_on>
-        <table>var__m_sys_hub_action_input_732fcfff2fa10110d4045aab2799b660</table>
-        <value>{{Created or Updated_1.current.email}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>groupdesc</field>
-        <id>cbefcf332fe10110d4045aab2799b61d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:02:53</sys_created_on>
-        <sys_id>03efcf332fe10110d4045aab2799b620</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:02:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_732fcfff2fa10110d4045aab2799b660</table>
-        <value>{{Created or Updated_1.current.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>groupname</field>
-        <id>cbefcf332fe10110d4045aab2799b61d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:02:53</sys_created_on>
-        <sys_id>4befcf332fe10110d4045aab2799b620</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:02:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_732fcfff2fa10110d4045aab2799b660</table>
-        <value>{{Created or Updated_1.current.name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>managerid</field>
-        <id>cbefcf332fe10110d4045aab2799b61d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:02:53</sys_created_on>
-        <sys_id>c3efcf332fe10110d4045aab2799b620</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:02:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_732fcfff2fa10110d4045aab2799b660</table>
-        <value>{{Created or Updated_1.current.manager.user_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sysid</field>
-        <id>cbefcf332fe10110d4045aab2799b61d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:02:53</sys_created_on>
-        <sys_id>87efcf332fe10110d4045aab2799b620</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:02:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_732fcfff2fa10110d4045aab2799b660</table>
-        <value>{{Created or Updated_1.current.sys_id}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="check group in dev67465">e994d33b2fe10110d4045aab2799b67c</action_type>
+        <action_type display_value="">e994d33b2fe10110d4045aab2799b67c</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>e994d33b2fe10110d4045aab2799b67c</compiled_snapshot>
@@ -577,19 +475,6 @@
         <ui_id>2a455b54-99a8-4ec3-bfd1-96b79a33fefb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e635d37b2fe10110d4045aab2799b62d"/>
-    <sys_element_mapping action="delete_multiple" query="id=e635d37b2fe10110d4045aab2799b62d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>groupsysid</field>
-        <id>e635d37b2fe10110d4045aab2799b62d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:26:04</sys_created_on>
-        <sys_id>a635d37b2fe10110d4045aab2799b62f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:26:04</sys_updated_on>
-        <table>var__m_sys_hub_action_input_e994d33b2fe10110d4045aab2799b67c</table>
-        <value>{{Created or Updated_1.current.sys_id}}</value>
-    </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=20360b372fa10110d4045aab2799b6f1^sys_idNOT IN3a35d37b2fe10110d4045aab2799b641,6a35d37b2fe10110d4045aab2799b630"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">7235d37b2fe10110d4045aab2799b641</block>
@@ -705,11 +590,11 @@
         <sys_created_on>2022-02-15 15:21:34</sys_created_on>
         <sys_id>7d7643772fa10110d4045aab2799b6fc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_20360b372fa10110d4045aab2799b6f1_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 15:21:34</sys_updated_on>
         <url/>
@@ -728,11 +613,11 @@
         <sys_created_on>2022-02-15 16:02:52</sys_created_on>
         <sys_id>7eef8f332fe10110d4045aab2799b6e5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_20360b372fa10110d4045aab2799b6f1_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 16:02:52</sys_updated_on>
         <url/>
@@ -751,11 +636,11 @@
         <sys_created_on>2022-02-15 15:21:34</sys_created_on>
         <sys_id>fd7643772fa10110d4045aab2799b6f6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_20360b372fa10110d4045aab2799b6f1_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 15:21:34</sys_updated_on>
         <url/>
@@ -910,7 +795,6 @@
         <value>unique_changes</value>
         <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=0d1743b72fa10110d4045aab2799b6c3"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=201743b72fa10110d4045aab2799b676^sys_idNOT IN681743b72fa10110d4045aab2799b677"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>201743b72fa10110d4045aab2799b676</id>
@@ -1170,8 +1054,7 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=201743b72fa10110d4045aab2799b676^sys_idNOT IN8745977b2fe10110d4045aab2799b6d4,cf45977b2fe10110d4045aab2799b6af,e2ff83732fe10110d4045aab2799b62e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Add Group in dev67465">e566cf372fa10110d4045aab2799b648</action_type>
+        <action_type display_value="">e566cf372fa10110d4045aab2799b648</action_type>
         <action_type_parent display_value="Add Group in dev67465">e4e24f332fa10110d4045aab2799b67e</action_type_parent>
         <comment/>
         <compiled_snapshot>e566cf372fa10110d4045aab2799b648</compiled_snapshot>
@@ -1190,47 +1073,9 @@
         <ui_id>210a0750-5118-41e6-b195-3b535c6a44fe</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8745977b2fe10110d4045aab2799b6d4"/>
-    <sys_element_mapping action="delete_multiple" query="id=8745977b2fe10110d4045aab2799b6d4"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>groupdesc</field>
-        <id>8745977b2fe10110d4045aab2799b6d4</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:26:22</sys_created_on>
-        <sys_id>c745977b2fe10110d4045aab2799b6d5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:26:22</sys_updated_on>
-        <table>var__m_sys_hub_action_input_e566cf372fa10110d4045aab2799b648</table>
-        <value>{{Created or Updated_1.current.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>groupname</field>
-        <id>8745977b2fe10110d4045aab2799b6d4</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:26:22</sys_created_on>
-        <sys_id>4f45977b2fe10110d4045aab2799b6d5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:26:22</sys_updated_on>
-        <table>var__m_sys_hub_action_input_e566cf372fa10110d4045aab2799b648</table>
-        <value>{{Created or Updated_1.current.name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sysid</field>
-        <id>8745977b2fe10110d4045aab2799b6d4</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:26:22</sys_created_on>
-        <sys_id>8b45977b2fe10110d4045aab2799b6d5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:26:22</sys_updated_on>
-        <table>var__m_sys_hub_action_input_e566cf372fa10110d4045aab2799b648</table>
-        <value>{{Created or Updated_1.current.sys_id}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="check group in dev67465">e994d33b2fe10110d4045aab2799b67c</action_type>
+        <action_type display_value="">e994d33b2fe10110d4045aab2799b67c</action_type>
         <action_type_parent display_value="check group in dev67465">1e639bb72fe10110d4045aab2799b631</action_type_parent>
         <comment/>
         <compiled_snapshot>e994d33b2fe10110d4045aab2799b67c</compiled_snapshot>
@@ -1249,23 +1094,9 @@
         <ui_id>2a455b54-99a8-4ec3-bfd1-96b79a33fefb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cf45977b2fe10110d4045aab2799b6af"/>
-    <sys_element_mapping action="delete_multiple" query="id=cf45977b2fe10110d4045aab2799b6af"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>groupsysid</field>
-        <id>cf45977b2fe10110d4045aab2799b6af</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:26:22</sys_created_on>
-        <sys_id>0f45977b2fe10110d4045aab2799b6b0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:26:22</sys_updated_on>
-        <table>var__m_sys_hub_action_input_e994d33b2fe10110d4045aab2799b67c</table>
-        <value>{{Created or Updated_1.current.sys_id}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Update Group in dev67465">732fcfff2fa10110d4045aab2799b660</action_type>
+        <action_type display_value="">732fcfff2fa10110d4045aab2799b660</action_type>
         <action_type_parent display_value="Update Group in dev67465">900887f72fa10110d4045aab2799b665</action_type_parent>
         <comment/>
         <compiled_snapshot>732fcfff2fa10110d4045aab2799b660</compiled_snapshot>
@@ -1284,67 +1115,6 @@
         <ui_id>41170161-4285-410b-a98c-94ed32702ba0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e2ff83732fe10110d4045aab2799b62e"/>
-    <sys_element_mapping action="delete_multiple" query="id=e2ff83732fe10110d4045aab2799b62e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>email</field>
-        <id>e2ff83732fe10110d4045aab2799b62e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:09:59</sys_created_on>
-        <sys_id>0b815bf32fe10110d4045aab2799b62c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:09:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_732fcfff2fa10110d4045aab2799b660</table>
-        <value>{{Created or Updated_1.current.email}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>groupdesc</field>
-        <id>e2ff83732fe10110d4045aab2799b62e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:03:08</sys_created_on>
-        <sys_id>a6ff83732fe10110d4045aab2799b62f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:03:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_732fcfff2fa10110d4045aab2799b660</table>
-        <value>{{Created or Updated_1.current.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>groupname</field>
-        <id>e2ff83732fe10110d4045aab2799b62e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:03:08</sys_created_on>
-        <sys_id>eeff83732fe10110d4045aab2799b62f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:03:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_732fcfff2fa10110d4045aab2799b660</table>
-        <value>{{Created or Updated_1.current.name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>managerid</field>
-        <id>e2ff83732fe10110d4045aab2799b62e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:03:08</sys_created_on>
-        <sys_id>6aff83732fe10110d4045aab2799b62f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:03:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_732fcfff2fa10110d4045aab2799b660</table>
-        <value>{{Created or Updated_1.current.manager.user_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sysid</field>
-        <id>e2ff83732fe10110d4045aab2799b62e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-15 16:03:08</sys_created_on>
-        <sys_id>2eff83732fe10110d4045aab2799b62f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-15 16:03:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_732fcfff2fa10110d4045aab2799b660</table>
-        <value>{{Created or Updated_1.current.sys_id}}</value>
-    </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=201743b72fa10110d4045aab2799b676^sys_idNOT IN4745977b2fe10110d4045aab2799b6d9,cb45977b2fe10110d4045aab2799b6dd"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">ea35d37b2fe10110d4045aab2799b62f</block>
@@ -1460,11 +1230,11 @@
         <sys_created_on>2022-02-15 15:24:14</sys_created_on>
         <sys_id>341743b72fa10110d4045aab2799b6a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_201743b72fa10110d4045aab2799b676_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 15:24:14</sys_updated_on>
         <url/>
@@ -1483,11 +1253,11 @@
         <sys_created_on>2022-02-15 15:24:14</sys_created_on>
         <sys_id>3c1743b72fa10110d4045aab2799b6ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_201743b72fa10110d4045aab2799b676_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 15:24:14</sys_updated_on>
         <url/>
@@ -1506,11 +1276,11 @@
         <sys_created_on>2022-02-15 16:03:07</sys_created_on>
         <sys_id>a2ff43732fe10110d4045aab2799b6ed</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_201743b72fa10110d4045aab2799b676_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 16:03:07</sys_updated_on>
         <url/>

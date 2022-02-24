@@ -11,7 +11,7 @@
         <copied_from_name>Add User to Group</copied_from_name>
         <description/>
         <internal_name>copy_of_add_user_to_group</internal_name>
-        <label_cache>[{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester.sys_id","label":"1➛requester➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"{{static.0a52d3dcd7011200f2d224837e6103f2}}","label":"Application Development","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"5d345cdb-dc85-4381-af81-4628c604e71e.approval_state","label":"10➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e.table_name","label":"8➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e.record","label":"8➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.Table","label":"4➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.Record","label":"4➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2258ae1-9c97-441c-9fb4-7f114ca1d83d.item","label":"3➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.group_list.manager","label":"1➛group_list➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"6db4cccc-6bae-46a9-818a-751d76e6003a.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.group_list","label":"1➛group_list","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.requester","label":"1➛requester","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","attributes":{"catalogType":"21","catalogTypeLabel":"List Collector"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.business_justification","label":"1➛business_justification","reference":"","reference_display":"business_justification","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.instance","label":"1➛instance","reference":"","reference_display":"instance","type":"choice","base_type":"choice","attributes":{"catalogType":"3","catalogTypeLabel":"Multiple Choice"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester","label":"1➛requester","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"31","catalogTypeLabel":"Requested For"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_list","label":"1➛group_list","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.business_justification","label":"1➛business_justification","reference":"","reference_display":"business_justification","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"13df4520-6e14-4a6c-93c3-c4a323b919c6.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_list.manager","label":"1➛group_list➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"9f7bb4a5-c129-4ea8-b85a-881c87b598f3.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9f7bb4a5-c129-4ea8-b85a-881c87b598f3.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.record","label":"5➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.table_name","label":"5➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.status","label":"5➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.error_message","label":"5➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_from_prod","label":"1➛group_from_prod","reference":"","reference_display":"group_from_prod","type":"choice","base_type":"choice","attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}}]</label_cache>
+        <label_cache>[{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester.user_name","label":"1➛requester➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"da5d774b-bac2-4845-a7b2-6e937b01f8e4.sysid","label":"2➛sysid","reference_display":"sysid","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d2123353-779c-4535-95de-3e6bb07cae1e"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester.sys_id","label":"1➛requester➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"{{static.0a52d3dcd7011200f2d224837e6103f2}}","label":"Application Development","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"5d345cdb-dc85-4381-af81-4628c604e71e.approval_state","label":"11➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e.table_name","label":"9➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e.record","label":"9➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.Table","label":"4➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.Record","label":"4➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2258ae1-9c97-441c-9fb4-7f114ca1d83d.item","label":"3➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.group_list.manager","label":"1➛group_list➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"6db4cccc-6bae-46a9-818a-751d76e6003a.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.group_list","label":"1➛group_list","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.requester","label":"1➛requester","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","attributes":{"catalogType":"21","catalogTypeLabel":"List Collector"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.business_justification","label":"1➛business_justification","reference":"","reference_display":"business_justification","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.instance","label":"1➛instance","reference":"","reference_display":"instance","type":"choice","base_type":"choice","attributes":{"catalogType":"3","catalogTypeLabel":"Multiple Choice"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester","label":"1➛requester","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"31","catalogTypeLabel":"Requested For"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_list","label":"1➛group_list","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.business_justification","label":"1➛business_justification","reference":"","reference_display":"business_justification","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"13df4520-6e14-4a6c-93c3-c4a323b919c6.approval_state","label":"4➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_list.manager","label":"1➛group_list➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"9f7bb4a5-c129-4ea8-b85a-881c87b598f3.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9f7bb4a5-c129-4ea8-b85a-881c87b598f3.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.record","label":"6➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.table_name","label":"6➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.status","label":"6➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.error_message","label":"6➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_from_prod","label":"1➛group_from_prod","reference":"","reference_display":"group_from_prod","type":"choice","base_type":"choice","attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}}]</label_cache>
         <master_snapshot>afe08d0687340110aae764280cbb352c</master_snapshot>
         <name>Copy of Add User to Group</name>
         <natlang/>
@@ -37,7 +37,7 @@
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name>sys_hub_flow_b0c0090687340110aae764280cbb35ee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-14 11:56:33</sys_updated_on>
+        <sys_updated_on>2022-02-24 11:40:55</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b0c0090687340110aae764280cbb35ee"/>
@@ -69,10 +69,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:20:59</sys_created_on>
         <sys_id>c9c0490687340110aae764280cbb3530</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -86,7 +86,7 @@
         <ancestor_component_id/>
         <ancestor_stage_id/>
         <ancestral_if_else_logic/>
-        <component_indexes>7</component_indexes>
+        <component_indexes>8</component_indexes>
         <duration>1970-01-01 00:00:00</duration>
         <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
         <label>Request Cancelled</label>
@@ -96,10 +96,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:14:54</sys_created_on>
         <sys_id>1225d1ac87010110aae764280cbb35af</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 08:21:19</sys_updated_on>
+        <sys_updated_on>2022-01-17 09:08:03</sys_updated_on>
         <type>standard</type>
         <value>Request Cancelled</value>
     </sys_hub_flow_stage>
@@ -132,7 +132,7 @@
         <ancestor_component_id/>
         <ancestor_stage_id/>
         <ancestral_if_else_logic/>
-        <component_indexes>2</component_indexes>
+        <component_indexes>3</component_indexes>
         <duration>1970-01-02 00:00:00</duration>
         <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
         <label>Waiting for Approval</label>
@@ -142,35 +142,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:14:54</sys_created_on>
         <sys_id>1a25d1ac87010110aae764280cbb35af</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 08:21:19</sys_updated_on>
+        <sys_updated_on>2022-01-17 09:08:03</sys_updated_on>
         <type>standard</type>
         <value>waiting_for_approval</value>
-    </sys_hub_flow_stage>
-    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
-        <always_show>true</always_show>
-        <ancestor_array_position>0</ancestor_array_position>
-        <ancestor_component_id/>
-        <ancestor_stage_id/>
-        <ancestral_if_else_logic/>
-        <component_indexes>4</component_indexes>
-        <duration>1970-01-01 00:00:00</duration>
-        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
-        <label>Request Approved</label>
-        <order>2</order>
-        <stage_id>d2ea3bef-abd9-4c96-bd13-7521cc677356</stage_id>
-        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-11 08:14:54</sys_created_on>
-        <sys_id>1e25d1ac87010110aae764280cbb35af</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 08:21:19</sys_updated_on>
-        <type>standard</type>
-        <value>request_approved</value>
     </sys_hub_flow_stage>
     <sys_hub_flow_stage action="INSERT_OR_UPDATE">
         <always_show>true</always_show>
@@ -181,6 +158,29 @@
         <component_indexes>5</component_indexes>
         <duration>1970-01-01 00:00:00</duration>
         <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <label>Request Approved</label>
+        <order>2</order>
+        <stage_id>d2ea3bef-abd9-4c96-bd13-7521cc677356</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:14:54</sys_created_on>
+        <sys_id>1e25d1ac87010110aae764280cbb35af</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:03</sys_updated_on>
+        <type>standard</type>
+        <value>request_approved</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>6</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
         <label>Completed</label>
         <order>1</order>
         <stage_id>14d56c73-0f2e-4c24-84b8-ade6a1601a8f</stage_id>
@@ -188,10 +188,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:14:54</sys_created_on>
         <sys_id>9a25d1ac87010110aae764280cbb35af</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 08:21:19</sys_updated_on>
+        <sys_updated_on>2022-01-17 09:08:03</sys_updated_on>
         <type>standard</type>
         <value>complete</value>
     </sys_hub_flow_stage>
@@ -293,14 +293,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:20:57</sys_created_on>
         <sys_id>7cc0090687340110aae764280cbb35f5</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -374,14 +374,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:20:58</sys_created_on>
         <sys_id>b8c0090687340110aae764280cbb35fc</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -393,7 +393,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=b0c0090687340110aae764280cbb35ee^sys_idNOT IN09c0490687340110aae764280cbb352e,74c0490687340110aae764280cbb3518,85c0490687340110aae764280cbb3520,88a61dec87010110aae764280cbb3534,89c0490687340110aae764280cbb3528,d4a61dec87010110aae764280cbb3551"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b0c0090687340110aae764280cbb35ee^sys_idNOT IN09c0490687340110aae764280cbb352e,53da90a687410110aae764280cbb35c2,74c0490687340110aae764280cbb3518,85c0490687340110aae764280cbb3520,88a61dec87010110aae764280cbb3534,89c0490687340110aae764280cbb3528,d4a61dec87010110aae764280cbb3551"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -403,16 +403,16 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
-        <order>8</order>
+        <order>9</order>
         <parent_ui_id>11208d92-c040-4c6e-9d71-c7f53b2a6aa8</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:20:59</sys_created_on>
         <sys_id>09c0490687340110aae764280cbb352e</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <ui_id>e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=09c0490687340110aae764280cbb352e"/>
@@ -470,6 +470,67 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Get user employee id ">f50ad06687410110aae764280cbb35b8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:02</sys_created_on>
+        <sys_id>53da90a687410110aae764280cbb35c2</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>da5d774b-bac2-4845-a7b2-6e937b01f8e4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=53da90a687410110aae764280cbb35c2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>53da90a687410110aae764280cbb35c2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:02</sys_created_on>
+        <sys_id>13da90a687410110aae764280cbb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:02</sys_updated_on>
+        <value>https://dev79811.service-now.com/</value>
+        <variable display_value="instance">710ad06687410110aae764280cbb35bb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=53da90a687410110aae764280cbb35c2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instance</field>
+        <id>53da90a687410110aae764280cbb35c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:02</sys_created_on>
+        <sys_id>9fda90a687410110aae764280cbb35c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f50ad06687410110aae764280cbb35b8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requester</field>
+        <id>53da90a687410110aae764280cbb35c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:02</sys_created_on>
+        <sys_id>dbda90a687410110aae764280cbb35c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f50ad06687410110aae764280cbb35b8</table>
+        <value>{{f0a1eab3-05e3-4940-8996-917fad2adf13.requester.user_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <comment/>
@@ -482,10 +543,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:20:58</sys_created_on>
         <sys_id>74c0490687340110aae764280cbb3518</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <ui_id>f0a1eab3-05e3-4940-8996-917fad2adf13</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=74c0490687340110aae764280cbb3518"/>
@@ -563,16 +624,16 @@
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
-        <order>3</order>
+        <order>4</order>
         <parent_ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:20:58</sys_created_on>
         <sys_id>85c0490687340110aae764280cbb3520</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <ui_id>13df4520-6e14-4a6c-93c3-c4a323b919c6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=85c0490687340110aae764280cbb3520"/>
@@ -714,16 +775,16 @@
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
-        <order>10</order>
+        <order>11</order>
         <parent_ui_id>578f3fe7-b2c3-463a-9d2e-0dbcae3d7f2b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:21:18</sys_created_on>
         <sys_id>88a61dec87010110aae764280cbb3534</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <ui_id>5d345cdb-dc85-4381-af81-4628c604e71e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=88a61dec87010110aae764280cbb3534"/>
@@ -865,16 +926,16 @@
         <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>60c57930-8c30-4fd2-bec2-67c08ec0445d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:20:58</sys_created_on>
         <sys_id>89c0490687340110aae764280cbb3528</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <ui_id>b7d98447-c0c1-45d2-a2fb-c5ca51715a81</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=89c0490687340110aae764280cbb3528"/>
@@ -926,16 +987,16 @@
         <compiled_snapshot>e5919d0687740110aae764280cbb3515</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
-        <order>12</order>
+        <order>13</order>
         <parent_ui_id>a12724d8-c797-4514-b626-42ab4ded9a7f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:21:18</sys_created_on>
         <sys_id>d4a61dec87010110aae764280cbb3551</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <ui_id>2c0fc5b9-26ee-40db-b42d-758aebda6013</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d4a61dec87010110aae764280cbb3551"/>
@@ -958,11 +1019,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:21:18</sys_created_on>
         <sys_id>98a61dec87010110aae764280cbb3552</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:55:18</sys_updated_on>
+        <sys_updated_on>2022-01-17 09:08:03</sys_updated_on>
         <table>var__m_sys_hub_action_input_e5919d0687740110aae764280cbb3515</table>
-        <value>{{f0a1eab3-05e3-4940-8996-917fad2adf13.requester}}</value>
+        <value>{{da5d774b-bac2-4845-a7b2-6e937b01f8e4.sysid}}</value>
     </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=b0c0090687340110aae764280cbb35ee^sys_idNOT IN1386ca0687380110aae764280cbb3523,18a61dec87010110aae764280cbb3539,78c0490687340110aae764280cbb350b,b4c0490687340110aae764280cbb3511,b8c0490687340110aae764280cbb3506,fcc0490687340110aae764280cbb350e"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -979,7 +1040,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>9</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -987,10 +1048,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 17:25:52</sys_created_on>
         <sys_id>1386ca0687380110aae764280cbb3523</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <ui_id>578f3fe7-b2c3-463a-9d2e-0dbcae3d7f2b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1049,7 +1110,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>11</order>
+        <order>12</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>578f3fe7-b2c3-463a-9d2e-0dbcae3d7f2b</parent_ui_id>
@@ -1057,10 +1118,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:21:18</sys_created_on>
         <sys_id>18a61dec87010110aae764280cbb3539</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <ui_id>a12724d8-c797-4514-b626-42ab4ded9a7f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1119,7 +1180,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</parent_ui_id>
@@ -1127,10 +1188,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:20:58</sys_created_on>
         <sys_id>78c0490687340110aae764280cbb350b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <ui_id>60c57930-8c30-4fd2-bec2-67c08ec0445d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1189,7 +1250,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>7</order>
+        <order>8</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</parent_ui_id>
@@ -1197,10 +1258,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:20:58</sys_created_on>
         <sys_id>b4c0490687340110aae764280cbb3511</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <ui_id>11208d92-c040-4c6e-9d71-c7f53b2a6aa8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1259,7 +1320,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1267,10 +1328,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:20:58</sys_created_on>
         <sys_id>b8c0490687340110aae764280cbb3506</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1328,7 +1389,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>6</order>
+        <order>7</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>60c57930-8c30-4fd2-bec2-67c08ec0445d</parent_ui_id>
@@ -1336,10 +1397,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:20:58</sys_created_on>
         <sys_id>fcc0490687340110aae764280cbb350e</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:24</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
         <ui_id>7b47d337-d562-40d8-b841-f0a92ac180ba</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1363,7 +1424,7 @@
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b0c0090687340110aae764280cbb35ee_request_item_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
         <url/>
@@ -1386,7 +1447,7 @@
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b0c0090687340110aae764280cbb35ee_table_name_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
         <url/>
@@ -1421,7 +1482,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>copy_of_add_user_to_group</internal_name>
-        <label_cache>[{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester.sys_id","label":"1➛requester➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"{{static.0a52d3dcd7011200f2d224837e6103f2}}","label":"Application Development","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"5d345cdb-dc85-4381-af81-4628c604e71e.approval_state","label":"10➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e.table_name","label":"8➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e.record","label":"8➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.Table","label":"4➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.Record","label":"4➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2258ae1-9c97-441c-9fb4-7f114ca1d83d.item","label":"3➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.group_list.manager","label":"1➛group_list➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"6db4cccc-6bae-46a9-818a-751d76e6003a.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.group_list","label":"1➛group_list","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.requester","label":"1➛requester","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","attributes":{"catalogType":"21","catalogTypeLabel":"List Collector"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.business_justification","label":"1➛business_justification","reference":"","reference_display":"business_justification","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.instance","label":"1➛instance","reference":"","reference_display":"instance","type":"choice","base_type":"choice","attributes":{"catalogType":"3","catalogTypeLabel":"Multiple Choice"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester","label":"1➛requester","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"31","catalogTypeLabel":"Requested For"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_list","label":"1➛group_list","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.business_justification","label":"1➛business_justification","reference":"","reference_display":"business_justification","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"13df4520-6e14-4a6c-93c3-c4a323b919c6.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_list.manager","label":"1➛group_list➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"9f7bb4a5-c129-4ea8-b85a-881c87b598f3.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9f7bb4a5-c129-4ea8-b85a-881c87b598f3.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.record","label":"5➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.table_name","label":"5➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.status","label":"5➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.error_message","label":"5➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_from_prod","label":"1➛group_from_prod","reference":"","reference_display":"group_from_prod","type":"choice","base_type":"choice","attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}}]</label_cache>
+        <label_cache>[{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester.user_name","label":"1➛requester➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"da5d774b-bac2-4845-a7b2-6e937b01f8e4.sysid","label":"2➛sysid","reference_display":"sysid","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d2123353-779c-4535-95de-3e6bb07cae1e"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester.sys_id","label":"1➛requester➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"{{static.0a52d3dcd7011200f2d224837e6103f2}}","label":"Application Development","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"5d345cdb-dc85-4381-af81-4628c604e71e.approval_state","label":"11➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e.table_name","label":"9➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e.record","label":"9➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.Table","label":"4➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.Record","label":"4➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2258ae1-9c97-441c-9fb4-7f114ca1d83d.item","label":"3➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.group_list.manager","label":"1➛group_list➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"6db4cccc-6bae-46a9-818a-751d76e6003a.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.group_list","label":"1➛group_list","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.requester","label":"1➛requester","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","attributes":{"catalogType":"21","catalogTypeLabel":"List Collector"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.business_justification","label":"1➛business_justification","reference":"","reference_display":"business_justification","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.instance","label":"1➛instance","reference":"","reference_display":"instance","type":"choice","base_type":"choice","attributes":{"catalogType":"3","catalogTypeLabel":"Multiple Choice"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester","label":"1➛requester","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"31","catalogTypeLabel":"Requested For"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_list","label":"1➛group_list","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.business_justification","label":"1➛business_justification","reference":"","reference_display":"business_justification","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"13df4520-6e14-4a6c-93c3-c4a323b919c6.approval_state","label":"4➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_list.manager","label":"1➛group_list➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"9f7bb4a5-c129-4ea8-b85a-881c87b598f3.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9f7bb4a5-c129-4ea8-b85a-881c87b598f3.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.record","label":"6➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.table_name","label":"6➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.status","label":"6➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.error_message","label":"6➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_from_prod","label":"1➛group_from_prod","reference":"","reference_display":"group_from_prod","type":"choice","base_type":"choice","attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}}]</label_cache>
         <master>true</master>
         <name>Copy of Add User to Group</name>
         <natlang/>
@@ -1438,7 +1499,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>afe08d0687340110aae764280cbb352c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1446,7 +1507,7 @@
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=afe08d0687340110aae764280cbb352c"/>
@@ -1461,10 +1522,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:21:43</sys_created_on>
         <sys_id>ffe08d0687340110aae764280cbb35a3</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:23</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:24:00</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1478,7 +1539,7 @@
         <ancestor_component_id/>
         <ancestor_stage_id/>
         <ancestral_if_else_logic/>
-        <component_indexes>2</component_indexes>
+        <component_indexes>3</component_indexes>
         <duration>1970-01-02 00:00:00</duration>
         <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
         <label>Waiting for Approval</label>
@@ -1488,10 +1549,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:21:33</sys_created_on>
         <sys_id>37a6112087410110aae764280cbb350d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
         <type>standard</type>
         <value>waiting_for_approval</value>
     </sys_hub_flow_stage>
@@ -1501,7 +1562,7 @@
         <ancestor_component_id/>
         <ancestor_stage_id/>
         <ancestral_if_else_logic/>
-        <component_indexes>4</component_indexes>
+        <component_indexes>5</component_indexes>
         <duration>1970-01-01 00:00:00</duration>
         <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
         <label>Request Approved</label>
@@ -1511,10 +1572,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:21:33</sys_created_on>
         <sys_id>3ba6112087410110aae764280cbb350d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
         <type>standard</type>
         <value>request_approved</value>
     </sys_hub_flow_stage>
@@ -1547,7 +1608,7 @@
         <ancestor_component_id/>
         <ancestor_stage_id/>
         <ancestral_if_else_logic/>
-        <component_indexes>7</component_indexes>
+        <component_indexes>8</component_indexes>
         <duration>1970-01-01 00:00:00</duration>
         <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
         <label>Request Cancelled</label>
@@ -1557,10 +1618,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:21:33</sys_created_on>
         <sys_id>b3a6112087410110aae764280cbb350d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
         <type>standard</type>
         <value>Request Cancelled</value>
     </sys_hub_flow_stage>
@@ -1570,7 +1631,7 @@
         <ancestor_component_id/>
         <ancestor_stage_id/>
         <ancestral_if_else_logic/>
-        <component_indexes>5</component_indexes>
+        <component_indexes>6</component_indexes>
         <duration>1970-01-01 00:00:00</duration>
         <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
         <label>Completed</label>
@@ -1580,10 +1641,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:21:33</sys_created_on>
         <sys_id>b7a6112087410110aae764280cbb350d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
         <type>standard</type>
         <value>complete</value>
     </sys_hub_flow_stage>
@@ -1685,14 +1746,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:21:42</sys_created_on>
         <sys_id>afe08d0687340110aae764280cbb355e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1766,14 +1827,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:21:42</sys_created_on>
         <sys_id>e3e08d0687340110aae764280cbb352f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1785,7 +1846,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=afe08d0687340110aae764280cbb352c^sys_idNOT IN2fa6ddec87010110aae764280cbb35de,33e08d0687340110aae764280cbb358a,7be08d0687340110aae764280cbb3592,7be08d0687340110aae764280cbb359b,b3e08d0687340110aae764280cbb35a2,f3a6ddec87010110aae764280cbb35ed"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=afe08d0687340110aae764280cbb352c^sys_idNOT IN2fa6ddec87010110aae764280cbb35de,33e08d0687340110aae764280cbb358a,7be08d0687340110aae764280cbb3592,7be08d0687340110aae764280cbb359b,a2fad4a687410110aae764280cbb35ca,b3e08d0687340110aae764280cbb35a2,f3a6ddec87010110aae764280cbb35ed"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1795,16 +1856,16 @@
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
-        <order>10</order>
+        <order>11</order>
         <parent_ui_id>578f3fe7-b2c3-463a-9d2e-0dbcae3d7f2b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:21:32</sys_created_on>
         <sys_id>2fa6ddec87010110aae764280cbb35de</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
         <ui_id>5d345cdb-dc85-4381-af81-4628c604e71e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2fa6ddec87010110aae764280cbb35de"/>
@@ -1952,10 +2013,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:21:43</sys_created_on>
         <sys_id>33e08d0687340110aae764280cbb358a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:55</sys_updated_on>
         <ui_id>f0a1eab3-05e3-4940-8996-917fad2adf13</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=33e08d0687340110aae764280cbb358a"/>
@@ -2033,16 +2094,16 @@
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
-        <order>3</order>
+        <order>4</order>
         <parent_ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:21:43</sys_created_on>
         <sys_id>7be08d0687340110aae764280cbb3592</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
         <ui_id>13df4520-6e14-4a6c-93c3-c4a323b919c6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7be08d0687340110aae764280cbb3592"/>
@@ -2184,16 +2245,16 @@
         <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>60c57930-8c30-4fd2-bec2-67c08ec0445d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:21:43</sys_created_on>
         <sys_id>7be08d0687340110aae764280cbb359b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
         <ui_id>b7d98447-c0c1-45d2-a2fb-c5ca51715a81</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7be08d0687340110aae764280cbb359b"/>
@@ -2239,22 +2300,83 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Get user employee id ">f50ad06687410110aae764280cbb35b8</action_type>
+        <action_type_parent display_value="Get user employee id ">935f44ea87010110aae764280cbb35c3</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f50ad06687410110aae764280cbb35b8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:32</sys_created_on>
+        <sys_id>a2fad4a687410110aae764280cbb35ca</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:55</sys_updated_on>
+        <ui_id>da5d774b-bac2-4845-a7b2-6e937b01f8e4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a2fad4a687410110aae764280cbb35ca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a2fad4a687410110aae764280cbb35ca</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:32</sys_created_on>
+        <sys_id>a6fad4a687410110aae764280cbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
+        <value>https://dev79811.service-now.com/</value>
+        <variable display_value="instance">710ad06687410110aae764280cbb35bb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a2fad4a687410110aae764280cbb35ca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instance</field>
+        <id>a2fad4a687410110aae764280cbb35ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:32</sys_created_on>
+        <sys_id>26fad4a687410110aae764280cbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f50ad06687410110aae764280cbb35b8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requester</field>
+        <id>a2fad4a687410110aae764280cbb35ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:32</sys_created_on>
+        <sys_id>62fad4a687410110aae764280cbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f50ad06687410110aae764280cbb35b8</table>
+        <value>{{f0a1eab3-05e3-4940-8996-917fad2adf13.requester.user_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
-        <order>8</order>
+        <order>9</order>
         <parent_ui_id>11208d92-c040-4c6e-9d71-c7f53b2a6aa8</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:21:43</sys_created_on>
         <sys_id>b3e08d0687340110aae764280cbb35a2</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
         <ui_id>e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b3e08d0687340110aae764280cbb35a2"/>
@@ -2318,16 +2440,16 @@
         <compiled_snapshot>e5919d0687740110aae764280cbb3515</compiled_snapshot>
         <display_text/>
         <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
-        <order>12</order>
+        <order>13</order>
         <parent_ui_id>a12724d8-c797-4514-b626-42ab4ded9a7f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:21:33</sys_created_on>
         <sys_id>f3a6ddec87010110aae764280cbb35ed</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
         <ui_id>2c0fc5b9-26ee-40db-b42d-758aebda6013</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f3a6ddec87010110aae764280cbb35ed"/>
@@ -2350,11 +2472,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:21:33</sys_created_on>
         <sys_id>b3a6ddec87010110aae764280cbb35ee</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:19</sys_updated_on>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
         <table>var__m_sys_hub_action_input_e5919d0687740110aae764280cbb3515</table>
-        <value>{{f0a1eab3-05e3-4940-8996-917fad2adf13.requester}}</value>
+        <value>{{da5d774b-bac2-4845-a7b2-6e937b01f8e4.sysid}}</value>
     </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=afe08d0687340110aae764280cbb352c^sys_idNOT IN6014992c87010110aae764280cbb3521,73a6112087410110aae764280cbb350a,77e08d0687340110aae764280cbb356f,77e08d0687340110aae764280cbb3575,f3e08d0687340110aae764280cbb356b,fbe08d0687340110aae764280cbb3572"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -2371,7 +2493,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>9</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2379,10 +2501,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:10:08</sys_created_on>
         <sys_id>6014992c87010110aae764280cbb3521</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
         <ui_id>578f3fe7-b2c3-463a-9d2e-0dbcae3d7f2b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2441,7 +2563,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>11</order>
+        <order>12</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>578f3fe7-b2c3-463a-9d2e-0dbcae3d7f2b</parent_ui_id>
@@ -2449,10 +2571,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-11 08:21:33</sys_created_on>
         <sys_id>73a6112087410110aae764280cbb350a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
         <ui_id>a12724d8-c797-4514-b626-42ab4ded9a7f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2511,7 +2633,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</parent_ui_id>
@@ -2519,10 +2641,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:21:42</sys_created_on>
         <sys_id>77e08d0687340110aae764280cbb356f</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
         <ui_id>60c57930-8c30-4fd2-bec2-67c08ec0445d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2581,7 +2703,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>7</order>
+        <order>8</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</parent_ui_id>
@@ -2589,10 +2711,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:21:42</sys_created_on>
         <sys_id>77e08d0687340110aae764280cbb3575</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
         <ui_id>11208d92-c040-4c6e-9d71-c7f53b2a6aa8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2651,7 +2773,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2659,10 +2781,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:21:42</sys_created_on>
         <sys_id>f3e08d0687340110aae764280cbb356b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
         <ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2720,7 +2842,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>6</order>
+        <order>7</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>60c57930-8c30-4fd2-bec2-67c08ec0445d</parent_ui_id>
@@ -2728,10 +2850,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-03 12:21:42</sys_created_on>
         <sys_id>fbe08d0687340110aae764280cbb3572</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-11 17:56:20</sys_updated_on>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
         <ui_id>7b47d337-d562-40d8-b841-f0a92ac180ba</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

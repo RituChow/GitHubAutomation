@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Access check table</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Access check table</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">e976de202f1330104370a55df699b60c</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-24 11:39:40</sys_created_on>
+        <sys_id>7ef9243687710110aae764280cbb3515</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Access check table</sys_name>
+        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name>sys_wizard_answer_7ef9243687710110aae764280cbb3515</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-24 11:39:40</sys_updated_on>
+        <table/>
+        <target_url>u_access_check_table.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

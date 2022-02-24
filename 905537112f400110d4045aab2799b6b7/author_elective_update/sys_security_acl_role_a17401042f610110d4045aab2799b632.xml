@@ -42,7 +42,7 @@
         <update_guid_history>c984c50475610110d01fe1a131bae401:-1034209554</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="u_access_check_table.admin">75a48dc02f610110d4045aab2799b644</sys_audit_delete>
+        <sys_audit_delete display_value="">75a48dc02f610110d4045aab2799b644</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-03 14:17:13</sys_created_on>
