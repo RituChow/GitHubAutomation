@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.GitHubAutomationUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GitHubAutomationUtil</name>
+        <script><![CDATA[var GitHubAutomationUtil = Class.create();
+GitHubAutomationUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	checkValidBranch : function() 
+	{
+		var instance = gs.getProperty('glide.servlet.uri');
+		var app_sys_id = this.getParameter("sysparm_app");
+		var branch = this.getParameter("sysparm_branch");
+		var git_repo = this.getParameter('sysparm_git_repo');
+		var project = this.getParameter('sysparm_project');
+		
+		//get all the branches from github
+		var branches = this.getBranches(project,git_repo);
+		
+		if(branches.indexOf(branch) != -1){
+			return true;
+		}
+		else {
+			return false;
+		}
+	},
+
+	getBranches : function(project,repo) {
+		gs.info("git_repo in getBranches");
+		var inputs = {};
+
+		inputs['username'] = project;
+		inputs['repo'] = repo;
+
+		var result = sn_fd.FlowAPI.getRunner()
+		.action('global.getallbranchesfromrepo')
+		.inForeground()
+		.withInputs(inputs)
+		.run();
+
+		var outputs = result.getOutputs();
+		return (outputs['branches']);
+	},
+
+	getRepo : function(app,url) {
+		
+		var app_sys_id = this.getParameter("sysparm_app") || app;
+		var instance = gs.getProperty('glide.servlet.uri') || url;
+		
+		var inputs = {};
+
+		inputs['instance'] = instance;
+		inputs['app_sys_id'] = app_sys_id;
+
+		var result = sn_fd.FlowAPI.getRunner()
+		.action('global.lookup_git_repo')
+		.inForeground()
+		.withInputs(inputs)
+		.run();
+
+		var outputs = result.getOutputs();
+		var obj = {};
+		obj.git_repo = outputs['git_repo'];
+		obj.user = outputs['user'];
+		return new global.JSON().encode(obj);
+	},
+
+	type: 'GitHubAutomationUtil'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-24 13:41:19</sys_created_on>
+        <sys_id>c1de78f22ff10110d4045aab2799b635</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>GitHubAutomationUtil</sys_name>
+        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name>sys_script_include_c1de78f22ff10110d4045aab2799b635</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-24 14:38:09</sys_updated_on>
+    </sys_script_include>
+</record_update>
