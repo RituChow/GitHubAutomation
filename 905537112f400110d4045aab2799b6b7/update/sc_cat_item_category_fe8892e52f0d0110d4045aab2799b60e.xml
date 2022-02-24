@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Apply development changes to GitHub">d644780b2f0001104370a55df699b68a</sc_cat_item>
+        <sc_cat_item display_value="Merge development changes to GitHub">d644780b2f0001104370a55df699b68a</sc_cat_item>
         <sc_category display_value="Git Automation">c8fdb0432f4001104370a55df699b66b</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
