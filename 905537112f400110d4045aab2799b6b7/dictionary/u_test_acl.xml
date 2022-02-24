@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="test acl" max_length="40" name="u_test_acl" type="collection">
+        <element attributes="base_start=true,edge_encryption_enabled=true" label="Select Table" max_length="80" name="u_select_table" type="table_name"/>
+    </element>
+</database>

@@ -1,0 +1,2913 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-quebec-12-09-2020__patch7-hotfix2-09-15-2021_09-16-2021_0748.zip</compiler_build>
+        <copied_from>206880152fb370104370a55df699b67c</copied_from>
+        <copied_from_name>Add User to Group</copied_from_name>
+        <description/>
+        <internal_name>copy_of_add_user_to_group</internal_name>
+        <label_cache>[{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester.user_name","label":"1➛requester➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"da5d774b-bac2-4845-a7b2-6e937b01f8e4.sysid","label":"2➛sysid","reference_display":"sysid","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d2123353-779c-4535-95de-3e6bb07cae1e"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester.sys_id","label":"1➛requester➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"{{static.0a52d3dcd7011200f2d224837e6103f2}}","label":"Application Development","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"5d345cdb-dc85-4381-af81-4628c604e71e.approval_state","label":"11➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e.table_name","label":"9➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e.record","label":"9➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.Table","label":"4➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.Record","label":"4➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2258ae1-9c97-441c-9fb4-7f114ca1d83d.item","label":"3➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.group_list.manager","label":"1➛group_list➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"6db4cccc-6bae-46a9-818a-751d76e6003a.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.group_list","label":"1➛group_list","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.requester","label":"1➛requester","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","attributes":{"catalogType":"21","catalogTypeLabel":"List Collector"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.business_justification","label":"1➛business_justification","reference":"","reference_display":"business_justification","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.instance","label":"1➛instance","reference":"","reference_display":"instance","type":"choice","base_type":"choice","attributes":{"catalogType":"3","catalogTypeLabel":"Multiple Choice"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester","label":"1➛requester","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"31","catalogTypeLabel":"Requested For"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_list","label":"1➛group_list","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.business_justification","label":"1➛business_justification","reference":"","reference_display":"business_justification","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"13df4520-6e14-4a6c-93c3-c4a323b919c6.approval_state","label":"4➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_list.manager","label":"1➛group_list➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"9f7bb4a5-c129-4ea8-b85a-881c87b598f3.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9f7bb4a5-c129-4ea8-b85a-881c87b598f3.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.record","label":"6➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.table_name","label":"6➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.status","label":"6➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.error_message","label":"6➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_from_prod","label":"1➛group_from_prod","reference":"","reference_display":"group_from_prod","type":"choice","base_type":"choice","attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}}]</label_cache>
+        <master_snapshot>afe08d0687340110aae764280cbb352c</master_snapshot>
+        <name>Copy of Add User to Group</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>c8f08d0687340110aae764280cbb35de</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0c0090687340110aae764280cbb35ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Add User to Group</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name>sys_hub_flow_b0c0090687340110aae764280cbb35ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-24 11:40:55</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b0c0090687340110aae764280cbb35ee"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b0c0090687340110aae764280cbb35ee"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in/>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c8f08d0687340110aae764280cbb35de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:10:12</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b0c0090687340110aae764280cbb35ee^sys_idNOT INc9c0490687340110aae764280cbb3530"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:59</sys_created_on>
+        <sys_id>c9c0490687340110aae764280cbb3530</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c9c0490687340110aae764280cbb3530"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b0c0090687340110aae764280cbb35ee^sys_idNOT IN1225d1ac87010110aae764280cbb35af,1225d1ac87010110aae764280cbb35b0,1a25d1ac87010110aae764280cbb35af,1e25d1ac87010110aae764280cbb35af,9a25d1ac87010110aae764280cbb35af,9e25d1ac87010110aae764280cbb35af"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>8</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <label>Request Cancelled</label>
+        <order>0</order>
+        <stage_id>ef088a10-d7be-4eb5-8550-922ac47d99bd</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:14:54</sys_created_on>
+        <sys_id>1225d1ac87010110aae764280cbb35af</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:03</sys_updated_on>
+        <type>standard</type>
+        <value>Request Cancelled</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-03 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <label>Delivery</label>
+        <order>5</order>
+        <stage_id>b7e4a266-d19a-4b8d-8646-7314b6a73928</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:14:54</sys_created_on>
+        <sys_id>1225d1ac87010110aae764280cbb35b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:14:54</sys_updated_on>
+        <type>standard</type>
+        <value>delivery</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>3</component_indexes>
+        <duration>1970-01-02 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <label>Waiting for Approval</label>
+        <order>3</order>
+        <stage_id>816dcf01-c50b-4e52-b628-aa109b3a88c1</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:14:54</sys_created_on>
+        <sys_id>1a25d1ac87010110aae764280cbb35af</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:03</sys_updated_on>
+        <type>standard</type>
+        <value>waiting_for_approval</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>5</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <label>Request Approved</label>
+        <order>2</order>
+        <stage_id>d2ea3bef-abd9-4c96-bd13-7521cc677356</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:14:54</sys_created_on>
+        <sys_id>1e25d1ac87010110aae764280cbb35af</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:03</sys_updated_on>
+        <type>standard</type>
+        <value>request_approved</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>6</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <label>Completed</label>
+        <order>1</order>
+        <stage_id>14d56c73-0f2e-4c24-84b8-ade6a1601a8f</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:14:54</sys_created_on>
+        <sys_id>9a25d1ac87010110aae764280cbb35af</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:03</sys_updated_on>
+        <type>standard</type>
+        <value>complete</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-02 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <label>Fulfillment</label>
+        <order>4</order>
+        <stage_id>f282f42a-e7dd-4638-9006-44d606aaca66</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:14:54</sys_created_on>
+        <sys_id>9e25d1ac87010110aae764280cbb35af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:14:54</sys_updated_on>
+        <type>standard</type>
+        <value>fulfillment</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b0c0090687340110aae764280cbb35ee^sys_idNOT IN34c0090687340110aae764280cbb35ef"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b0c0090687340110aae764280cbb35ee</id>
+        <name>Copy of Add User to Group</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:57</sys_created_on>
+        <sys_id>34c0090687340110aae764280cbb35ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=b0c0090687340110aae764280cbb35ee^sys_idNOT IN7cc0090687340110aae764280cbb35f5,b8c0090687340110aae764280cbb35fc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</model>
+        <model_id>b0c0090687340110aae764280cbb35ee</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b0c0090687340110aae764280cbb35ee</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:57</sys_created_on>
+        <sys_id>7cc0090687340110aae764280cbb35f5</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</model>
+        <model_id>b0c0090687340110aae764280cbb35ee</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b0c0090687340110aae764280cbb35ee</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>b8c0090687340110aae764280cbb35fc</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b0c0090687340110aae764280cbb35ee^sys_idNOT IN09c0490687340110aae764280cbb352e,53da90a687410110aae764280cbb35c2,74c0490687340110aae764280cbb3518,85c0490687340110aae764280cbb3520,88a61dec87010110aae764280cbb3534,89c0490687340110aae764280cbb3528,d4a61dec87010110aae764280cbb3551"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <order>9</order>
+        <parent_ui_id>11208d92-c040-4c6e-9d71-c7f53b2a6aa8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:59</sys_created_on>
+        <sys_id>09c0490687340110aae764280cbb352e</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=09c0490687340110aae764280cbb352e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>09c0490687340110aae764280cbb352e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:59</sys_created_on>
+        <sys_id>45c0490687340110aae764280cbb3530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:59</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=09c0490687340110aae764280cbb352e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>09c0490687340110aae764280cbb352e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:59</sys_created_on>
+        <sys_id>01c0490687340110aae764280cbb3530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>09c0490687340110aae764280cbb352e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:59</sys_created_on>
+        <sys_id>4dc0490687340110aae764280cbb352f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>09c0490687340110aae764280cbb352e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:59</sys_created_on>
+        <sys_id>c1c0490687340110aae764280cbb3530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>comments=Your Request hs been rejected by {{f0a1eab3-05e3-4940-8996-917fad2adf13.group_list.manager}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get user employee id ">f50ad06687410110aae764280cbb35b8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:02</sys_created_on>
+        <sys_id>53da90a687410110aae764280cbb35c2</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>da5d774b-bac2-4845-a7b2-6e937b01f8e4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=53da90a687410110aae764280cbb35c2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>53da90a687410110aae764280cbb35c2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:02</sys_created_on>
+        <sys_id>13da90a687410110aae764280cbb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:02</sys_updated_on>
+        <value>https://dev79811.service-now.com/</value>
+        <variable display_value="instance">710ad06687410110aae764280cbb35bb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=53da90a687410110aae764280cbb35c2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instance</field>
+        <id>53da90a687410110aae764280cbb35c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:02</sys_created_on>
+        <sys_id>9fda90a687410110aae764280cbb35c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f50ad06687410110aae764280cbb35b8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requester</field>
+        <id>53da90a687410110aae764280cbb35c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:02</sys_created_on>
+        <sys_id>dbda90a687410110aae764280cbb35c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f50ad06687410110aae764280cbb35b8</table>
+        <value>{{f0a1eab3-05e3-4940-8996-917fad2adf13.requester.user_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>74c0490687340110aae764280cbb3518</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>f0a1eab3-05e3-4940-8996-917fad2adf13</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=74c0490687340110aae764280cbb3518"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>74c0490687340110aae764280cbb3518</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>0dc0490687340110aae764280cbb351a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <value>74fae2d92fab70104370a55df699b664</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>74c0490687340110aae764280cbb3518</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>49c0490687340110aae764280cbb351a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:10:04</sys_updated_on>
+        <value>e08ce6d92fab70104370a55df699b6e0:item_option_new,f64c7a122fa330104370a55df699b691:item_option_new,d142a88687b00110aae764280cbb3568:item_option_new,7c7208dd2f7370104370a55df699b60d:item_option_new,9b79f85387700110aae764280cbb3571:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=74c0490687340110aae764280cbb3518"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>74c0490687340110aae764280cbb3518</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>05c0490687340110aae764280cbb351a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>74c0490687340110aae764280cbb3518</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:33</sys_created_on>
+        <sys_id>1de00d0687340110aae764280cbb357b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>74c0490687340110aae764280cbb3518</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>c5c0490687340110aae764280cbb351a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <order>4</order>
+        <parent_ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>85c0490687340110aae764280cbb3520</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>13df4520-6e14-4a6c-93c3-c4a323b919c6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=85c0490687340110aae764280cbb3520"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>85c0490687340110aae764280cbb3520</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>09c0490687340110aae764280cbb3523</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>85c0490687340110aae764280cbb3520</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>45c0490687340110aae764280cbb3523</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>85c0490687340110aae764280cbb3520</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>81c0490687340110aae764280cbb3523</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>85c0490687340110aae764280cbb3520</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>c9c0490687340110aae764280cbb3523</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=85c0490687340110aae764280cbb3520"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>85c0490687340110aae764280cbb3520</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>4dc0490687340110aae764280cbb3522</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejectsAnyU[{{f0a1eab3-05e3-4940-8996-917fad2adf13.group_list.manager}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>85c0490687340110aae764280cbb3520</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>41c0490687340110aae764280cbb3522</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>85c0490687340110aae764280cbb3520</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>89c0490687340110aae764280cbb3522</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>85c0490687340110aae764280cbb3520</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>05c0490687340110aae764280cbb3522</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>85c0490687340110aae764280cbb3520</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>c5c0490687340110aae764280cbb3522</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>85c0490687340110aae764280cbb3520</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>01c0490687340110aae764280cbb3523</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <order>11</order>
+        <parent_ui_id>578f3fe7-b2c3-463a-9d2e-0dbcae3d7f2b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>88a61dec87010110aae764280cbb3534</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>5d345cdb-dc85-4381-af81-4628c604e71e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=88a61dec87010110aae764280cbb3534"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>88a61dec87010110aae764280cbb3534</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>08a61dec87010110aae764280cbb3538</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>88a61dec87010110aae764280cbb3534</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>44a61dec87010110aae764280cbb3538</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>88a61dec87010110aae764280cbb3534</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>8ca61dec87010110aae764280cbb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>88a61dec87010110aae764280cbb3534</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>c8a61dec87010110aae764280cbb3538</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=88a61dec87010110aae764280cbb3534"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>88a61dec87010110aae764280cbb3534</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>48a61dec87010110aae764280cbb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejectsAnyG[{{static.0a52d3dcd7011200f2d224837e6103f2}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>88a61dec87010110aae764280cbb3534</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>48a61dec87010110aae764280cbb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>88a61dec87010110aae764280cbb3534</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>84a61dec87010110aae764280cbb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>88a61dec87010110aae764280cbb3534</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>00a61dec87010110aae764280cbb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>88a61dec87010110aae764280cbb3534</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>c0a61dec87010110aae764280cbb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>88a61dec87010110aae764280cbb3534</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>0ca61dec87010110aae764280cbb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <order>6</order>
+        <parent_ui_id>60c57930-8c30-4fd2-bec2-67c08ec0445d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>89c0490687340110aae764280cbb3528</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>b7d98447-c0c1-45d2-a2fb-c5ca51715a81</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=89c0490687340110aae764280cbb3528"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>89c0490687340110aae764280cbb3528</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>81c0490687340110aae764280cbb352a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <value>sys_user_grmember</value>
+        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=89c0490687340110aae764280cbb3528"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>89c0490687340110aae764280cbb3528</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>4dc0490687340110aae764280cbb3529</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>group={{f0a1eab3-05e3-4940-8996-917fad2adf13.group_list}}^user={{f0a1eab3-05e3-4940-8996-917fad2adf13.requester}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>89c0490687340110aae764280cbb3528</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>01c0490687340110aae764280cbb352a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="ADD user to group prod">e5919d0687740110aae764280cbb3515</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>e5919d0687740110aae764280cbb3515</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <order>13</order>
+        <parent_ui_id>a12724d8-c797-4514-b626-42ab4ded9a7f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>d4a61dec87010110aae764280cbb3551</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>2c0fc5b9-26ee-40db-b42d-758aebda6013</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d4a61dec87010110aae764280cbb3551"/>
+    <sys_element_mapping action="delete_multiple" query="id=d4a61dec87010110aae764280cbb3551"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>group</field>
+        <id>d4a61dec87010110aae764280cbb3551</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>5ca61dec87010110aae764280cbb3552</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e5919d0687740110aae764280cbb3515</table>
+        <value>{{f0a1eab3-05e3-4940-8996-917fad2adf13.group_from_prod}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>d4a61dec87010110aae764280cbb3551</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>98a61dec87010110aae764280cbb3552</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e5919d0687740110aae764280cbb3515</table>
+        <value>{{da5d774b-bac2-4845-a7b2-6e937b01f8e4.sysid}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=b0c0090687340110aae764280cbb35ee^sys_idNOT IN1386ca0687380110aae764280cbb3523,18a61dec87010110aae764280cbb3539,78c0490687340110aae764280cbb350b,b4c0490687340110aae764280cbb3511,b8c0490687340110aae764280cbb3506,fcc0490687340110aae764280cbb350e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5b86ca0687380110aae764280cbb3522</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 17:25:52</sys_created_on>
+        <sys_id>1386ca0687380110aae764280cbb3523</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>578f3fe7-b2c3-463a-9d2e-0dbcae3d7f2b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1386ca0687380110aae764280cbb3523"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>1386ca0687380110aae764280cbb3523</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 17:25:52</sys_created_on>
+        <sys_id>9786ca0687380110aae764280cbb3526</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 17:25:52</sys_updated_on>
+        <value>Instance selection is prod </value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1386ca0687380110aae764280cbb3523"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>1386ca0687380110aae764280cbb3523</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 17:25:52</sys_created_on>
+        <sys_id>1786ca0687380110aae764280cbb3526</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 17:25:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f0a1eab3-05e3-4940-8996-917fad2adf13.instance}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>1386ca0687380110aae764280cbb3523</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 17:25:52</sys_created_on>
+        <sys_id>5f86ca0687380110aae764280cbb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 17:25:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">40a61dec87010110aae764280cbb3539</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>578f3fe7-b2c3-463a-9d2e-0dbcae3d7f2b</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>18a61dec87010110aae764280cbb3539</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>a12724d8-c797-4514-b626-42ab4ded9a7f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=18a61dec87010110aae764280cbb3539"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>18a61dec87010110aae764280cbb3539</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>98a61dec87010110aae764280cbb353c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <value>Approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=18a61dec87010110aae764280cbb3539"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>18a61dec87010110aae764280cbb3539</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>18a61dec87010110aae764280cbb353c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{5d345cdb-dc85-4381-af81-4628c604e71e.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>18a61dec87010110aae764280cbb3539</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:18</sys_created_on>
+        <sys_id>54a61dec87010110aae764280cbb353c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">19e62c0e87b00110aae764280cbb35af</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>78c0490687340110aae764280cbb350b</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>60c57930-8c30-4fd2-bec2-67c08ec0445d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=78c0490687340110aae764280cbb350b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>78c0490687340110aae764280cbb350b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>f4c0490687340110aae764280cbb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <value>Approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=78c0490687340110aae764280cbb350b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>78c0490687340110aae764280cbb350b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>74c0490687340110aae764280cbb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{13df4520-6e14-4a6c-93c3-c4a323b919c6.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>78c0490687340110aae764280cbb350b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>b0c0490687340110aae764280cbb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6528a08e87b00110aae764280cbb35f8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>b4c0490687340110aae764280cbb3511</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>11208d92-c040-4c6e-9d71-c7f53b2a6aa8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b4c0490687340110aae764280cbb3511"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b4c0490687340110aae764280cbb3511</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>34c0490687340110aae764280cbb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <value>If Rejected</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b4c0490687340110aae764280cbb3511"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b4c0490687340110aae764280cbb3511</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>b0c0490687340110aae764280cbb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{13df4520-6e14-4a6c-93c3-c4a323b919c6.approval_state}}!=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b4c0490687340110aae764280cbb3511</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>fcc0490687340110aae764280cbb3513</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d9e62c0e87b00110aae764280cbb35a1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>b8c0490687340110aae764280cbb3506</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b8c0490687340110aae764280cbb3506"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b8c0490687340110aae764280cbb3506</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>78c0490687340110aae764280cbb350a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <value>Instance selection</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b8c0490687340110aae764280cbb3506"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b8c0490687340110aae764280cbb3506</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>f4c0490687340110aae764280cbb350a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f0a1eab3-05e3-4940-8996-917fad2adf13.instance}}=1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b8c0490687340110aae764280cbb3506</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>30c0490687340110aae764280cbb350a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ad28a08e87b00110aae764280cbb35f5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>60c57930-8c30-4fd2-bec2-67c08ec0445d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>fcc0490687340110aae764280cbb350e</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:01</sys_updated_on>
+        <ui_id>7b47d337-d562-40d8-b841-f0a92ac180ba</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fcc0490687340110aae764280cbb350e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b0c0090687340110aae764280cbb35ee^sys_idNOT IN70c0090687340110aae764280cbb35fb,f4c0490687340110aae764280cbb3503"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b0c0090687340110aae764280cbb35ee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>70c0090687340110aae764280cbb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Item</sys_name>
+        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b0c0090687340110aae764280cbb35ee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:20:58</sys_created_on>
+        <sys_id>f4c0490687340110aae764280cbb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:20:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b0c0090687340110aae764280cbb35ee^sys_idNOT IN04f08d0687340110aae764280cbb35df"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"04f08d0687340110aae764280cbb35df","name":"plan"}}</plan>
+        <plan_id>b0c0090687340110aae764280cbb35ee</plan_id>
+        <snapshot>afe08d0687340110aae764280cbb352c</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>04f08d0687340110aae764280cbb35df</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 17:56:23</sys_updated_on>
+        <trigger display_value="">c8f08d0687340110aae764280cbb35de</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>copy_of_add_user_to_group</internal_name>
+        <label_cache>[{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester.user_name","label":"1➛requester➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"da5d774b-bac2-4845-a7b2-6e937b01f8e4.sysid","label":"2➛sysid","reference_display":"sysid","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d2123353-779c-4535-95de-3e6bb07cae1e"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester.sys_id","label":"1➛requester➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"{{static.0a52d3dcd7011200f2d224837e6103f2}}","label":"Application Development","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"5d345cdb-dc85-4381-af81-4628c604e71e.approval_state","label":"11➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e.table_name","label":"9➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e.record","label":"9➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.Table","label":"4➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a9a9d788-3425-454b-9f48-21cb646255b7.Record","label":"4➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a2258ae1-9c97-441c-9fb4-7f114ca1d83d.item","label":"3➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.group_list.manager","label":"1➛group_list➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"6db4cccc-6bae-46a9-818a-751d76e6003a.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.group_list","label":"1➛group_list","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.requester","label":"1➛requester","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","attributes":{"catalogType":"21","catalogTypeLabel":"List Collector"}},{"name":"2946e205-eeac-45b8-9c49-4bcb0de45ff7.business_justification","label":"1➛business_justification","reference":"","reference_display":"business_justification","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.instance","label":"1➛instance","reference":"","reference_display":"instance","type":"choice","base_type":"choice","attributes":{"catalogType":"3","catalogTypeLabel":"Multiple Choice"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.requester","label":"1➛requester","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"31","catalogTypeLabel":"Requested For"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_list","label":"1➛group_list","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.business_justification","label":"1➛business_justification","reference":"","reference_display":"business_justification","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"13df4520-6e14-4a6c-93c3-c4a323b919c6.approval_state","label":"4➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_list.manager","label":"1➛group_list➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager"},{"name":"9f7bb4a5-c129-4ea8-b85a-881c87b598f3.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9f7bb4a5-c129-4ea8-b85a-881c87b598f3.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.record","label":"6➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.table_name","label":"6➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.status","label":"6➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7d98447-c0c1-45d2-a2fb-c5ca51715a81.error_message","label":"6➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0a1eab3-05e3-4940-8996-917fad2adf13.group_from_prod","label":"1➛group_from_prod","reference":"","reference_display":"group_from_prod","type":"choice","base_type":"choice","attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}}]</label_cache>
+        <master>true</master>
+        <name>Copy of Add User to Group</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Copy of Add User to Group">b0c0090687340110aae764280cbb35ee</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>afe08d0687340110aae764280cbb352c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=afe08d0687340110aae764280cbb352c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=afe08d0687340110aae764280cbb352c"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=afe08d0687340110aae764280cbb352c^sys_idNOT INffe08d0687340110aae764280cbb35a3"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>ffe08d0687340110aae764280cbb35a3</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:24:00</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ffe08d0687340110aae764280cbb35a3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=afe08d0687340110aae764280cbb352c^sys_idNOT IN37a6112087410110aae764280cbb350d,3ba6112087410110aae764280cbb350d,3fa6112087410110aae764280cbb350d,b3a6112087410110aae764280cbb350d,b7a6112087410110aae764280cbb350d,bba6112087410110aae764280cbb350d"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>3</component_indexes>
+        <duration>1970-01-02 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <label>Waiting for Approval</label>
+        <order>3</order>
+        <stage_id>816dcf01-c50b-4e52-b628-aa109b3a88c1</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>37a6112087410110aae764280cbb350d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
+        <type>standard</type>
+        <value>waiting_for_approval</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>5</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <label>Request Approved</label>
+        <order>2</order>
+        <stage_id>d2ea3bef-abd9-4c96-bd13-7521cc677356</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>3ba6112087410110aae764280cbb350d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
+        <type>standard</type>
+        <value>request_approved</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-03 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <label>Delivery</label>
+        <order>5</order>
+        <stage_id>b7e4a266-d19a-4b8d-8646-7314b6a73928</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>3fa6112087410110aae764280cbb350d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <type>standard</type>
+        <value>delivery</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>8</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <label>Request Cancelled</label>
+        <order>0</order>
+        <stage_id>ef088a10-d7be-4eb5-8550-922ac47d99bd</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>b3a6112087410110aae764280cbb350d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
+        <type>standard</type>
+        <value>Request Cancelled</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>6</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <label>Completed</label>
+        <order>1</order>
+        <stage_id>14d56c73-0f2e-4c24-84b8-ade6a1601a8f</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>b7a6112087410110aae764280cbb350d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
+        <type>standard</type>
+        <value>complete</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-02 00:00:00</duration>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <label>Fulfillment</label>
+        <order>4</order>
+        <stage_id>f282f42a-e7dd-4638-9006-44d606aaca66</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>bba6112087410110aae764280cbb350d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <type>standard</type>
+        <value>fulfillment</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=afe08d0687340110aae764280cbb352c^sys_idNOT IN6fe08d0687340110aae764280cbb352d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>afe08d0687340110aae764280cbb352c</id>
+        <name>Copy of Add User to Group</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>6fe08d0687340110aae764280cbb352d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:42</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=afe08d0687340110aae764280cbb352c^sys_idNOT INafe08d0687340110aae764280cbb355e,e3e08d0687340110aae764280cbb352f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</model>
+        <model_id>afe08d0687340110aae764280cbb352c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_afe08d0687340110aae764280cbb352c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>afe08d0687340110aae764280cbb355e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</model>
+        <model_id>afe08d0687340110aae764280cbb352c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_afe08d0687340110aae764280cbb352c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>e3e08d0687340110aae764280cbb352f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=afe08d0687340110aae764280cbb352c^sys_idNOT IN2fa6ddec87010110aae764280cbb35de,33e08d0687340110aae764280cbb358a,7be08d0687340110aae764280cbb3592,7be08d0687340110aae764280cbb359b,a2fad4a687410110aae764280cbb35ca,b3e08d0687340110aae764280cbb35a2,f3a6ddec87010110aae764280cbb35ed"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <order>11</order>
+        <parent_ui_id>578f3fe7-b2c3-463a-9d2e-0dbcae3d7f2b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:32</sys_created_on>
+        <sys_id>2fa6ddec87010110aae764280cbb35de</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
+        <ui_id>5d345cdb-dc85-4381-af81-4628c604e71e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2fa6ddec87010110aae764280cbb35de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2fa6ddec87010110aae764280cbb35de</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>27a6ddec87010110aae764280cbb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2fa6ddec87010110aae764280cbb35de</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>6fa6ddec87010110aae764280cbb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2fa6ddec87010110aae764280cbb35de</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>aba6ddec87010110aae764280cbb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2fa6ddec87010110aae764280cbb35de</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>e7a6ddec87010110aae764280cbb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2fa6ddec87010110aae764280cbb35de"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>2fa6ddec87010110aae764280cbb35de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>efa6ddec87010110aae764280cbb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejectsAnyG[{{static.0a52d3dcd7011200f2d224837e6103f2}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>2fa6ddec87010110aae764280cbb35de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>e3a6ddec87010110aae764280cbb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>2fa6ddec87010110aae764280cbb35de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>2fa6ddec87010110aae764280cbb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>2fa6ddec87010110aae764280cbb35de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>a7a6ddec87010110aae764280cbb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2fa6ddec87010110aae764280cbb35de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>6ba6ddec87010110aae764280cbb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>2fa6ddec87010110aae764280cbb35de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>a3a6ddec87010110aae764280cbb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>33e08d0687340110aae764280cbb358a</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:55</sys_updated_on>
+        <ui_id>f0a1eab3-05e3-4940-8996-917fad2adf13</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=33e08d0687340110aae764280cbb358a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>33e08d0687340110aae764280cbb358a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>3fe08d0687340110aae764280cbb358b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <value>74fae2d92fab70104370a55df699b664</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>33e08d0687340110aae764280cbb358a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>7be08d0687340110aae764280cbb358b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:10:08</sys_updated_on>
+        <value>e08ce6d92fab70104370a55df699b6e0:item_option_new,f64c7a122fa330104370a55df699b691:item_option_new,d142a88687b00110aae764280cbb3568:item_option_new,7c7208dd2f7370104370a55df699b60d:item_option_new,9b79f85387700110aae764280cbb3571:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=33e08d0687340110aae764280cbb358a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>33e08d0687340110aae764280cbb358a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>73e08d0687340110aae764280cbb358b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>33e08d0687340110aae764280cbb358a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>f7e08d0687340110aae764280cbb358b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>33e08d0687340110aae764280cbb358a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>37e08d0687340110aae764280cbb358b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <order>4</order>
+        <parent_ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>7be08d0687340110aae764280cbb3592</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
+        <ui_id>13df4520-6e14-4a6c-93c3-c4a323b919c6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7be08d0687340110aae764280cbb3592"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7be08d0687340110aae764280cbb3592</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>37e08d0687340110aae764280cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7be08d0687340110aae764280cbb3592</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>73e08d0687340110aae764280cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7be08d0687340110aae764280cbb3592</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>bbe08d0687340110aae764280cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7be08d0687340110aae764280cbb3592</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>f7e08d0687340110aae764280cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7be08d0687340110aae764280cbb3592"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>7be08d0687340110aae764280cbb3592</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>3fe08d0687340110aae764280cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejectsAnyU[{{f0a1eab3-05e3-4940-8996-917fad2adf13.group_list.manager}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>7be08d0687340110aae764280cbb3592</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>33e08d0687340110aae764280cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>7be08d0687340110aae764280cbb3592</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>7be08d0687340110aae764280cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>7be08d0687340110aae764280cbb3592</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>f3e08d0687340110aae764280cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7be08d0687340110aae764280cbb3592</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>b7e08d0687340110aae764280cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>7be08d0687340110aae764280cbb3592</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>ffe08d0687340110aae764280cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <order>6</order>
+        <parent_ui_id>60c57930-8c30-4fd2-bec2-67c08ec0445d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>7be08d0687340110aae764280cbb359b</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
+        <ui_id>b7d98447-c0c1-45d2-a2fb-c5ca51715a81</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7be08d0687340110aae764280cbb359b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7be08d0687340110aae764280cbb359b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>7fe08d0687340110aae764280cbb359c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <value>sys_user_grmember</value>
+        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7be08d0687340110aae764280cbb359b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>7be08d0687340110aae764280cbb359b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>3be08d0687340110aae764280cbb359c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>group={{f0a1eab3-05e3-4940-8996-917fad2adf13.group_list}}^user={{f0a1eab3-05e3-4940-8996-917fad2adf13.requester}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7be08d0687340110aae764280cbb359b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>fbe08d0687340110aae764280cbb359c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get user employee id ">f50ad06687410110aae764280cbb35b8</action_type>
+        <action_type_parent display_value="Get user employee id ">935f44ea87010110aae764280cbb35c3</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f50ad06687410110aae764280cbb35b8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:32</sys_created_on>
+        <sys_id>a2fad4a687410110aae764280cbb35ca</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:55</sys_updated_on>
+        <ui_id>da5d774b-bac2-4845-a7b2-6e937b01f8e4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a2fad4a687410110aae764280cbb35ca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a2fad4a687410110aae764280cbb35ca</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:32</sys_created_on>
+        <sys_id>a6fad4a687410110aae764280cbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
+        <value>https://dev79811.service-now.com/</value>
+        <variable display_value="instance">710ad06687410110aae764280cbb35bb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a2fad4a687410110aae764280cbb35ca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instance</field>
+        <id>a2fad4a687410110aae764280cbb35ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:32</sys_created_on>
+        <sys_id>26fad4a687410110aae764280cbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f50ad06687410110aae764280cbb35b8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requester</field>
+        <id>a2fad4a687410110aae764280cbb35ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-17 09:08:32</sys_created_on>
+        <sys_id>62fad4a687410110aae764280cbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f50ad06687410110aae764280cbb35b8</table>
+        <value>{{f0a1eab3-05e3-4940-8996-917fad2adf13.requester.user_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <order>9</order>
+        <parent_ui_id>11208d92-c040-4c6e-9d71-c7f53b2a6aa8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>b3e08d0687340110aae764280cbb35a2</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
+        <ui_id>e6ad8e78-b5a7-4440-bde5-5f39fe5dd38e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b3e08d0687340110aae764280cbb35a2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b3e08d0687340110aae764280cbb35a2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>fbe08d0687340110aae764280cbb35a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b3e08d0687340110aae764280cbb35a2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b3e08d0687340110aae764280cbb35a2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>b7e08d0687340110aae764280cbb35a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b3e08d0687340110aae764280cbb35a2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>f3e08d0687340110aae764280cbb35a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b3e08d0687340110aae764280cbb35a2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:43</sys_created_on>
+        <sys_id>7be08d0687340110aae764280cbb35a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>comments=Your Request hs been rejected by {{f0a1eab3-05e3-4940-8996-917fad2adf13.group_list.manager}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="ADD user to group prod">e5919d0687740110aae764280cbb3515</action_type>
+        <action_type_parent display_value="ADD user to group prod">65b9454e87340110aae764280cbb359c</action_type_parent>
+        <comment/>
+        <compiled_snapshot>e5919d0687740110aae764280cbb3515</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <order>13</order>
+        <parent_ui_id>a12724d8-c797-4514-b626-42ab4ded9a7f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>f3a6ddec87010110aae764280cbb35ed</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
+        <ui_id>2c0fc5b9-26ee-40db-b42d-758aebda6013</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f3a6ddec87010110aae764280cbb35ed"/>
+    <sys_element_mapping action="delete_multiple" query="id=f3a6ddec87010110aae764280cbb35ed"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>group</field>
+        <id>f3a6ddec87010110aae764280cbb35ed</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>77a6ddec87010110aae764280cbb35ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e5919d0687740110aae764280cbb3515</table>
+        <value>{{f0a1eab3-05e3-4940-8996-917fad2adf13.group_from_prod}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>f3a6ddec87010110aae764280cbb35ed</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>b3a6ddec87010110aae764280cbb35ee</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 09:08:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e5919d0687740110aae764280cbb3515</table>
+        <value>{{da5d774b-bac2-4845-a7b2-6e937b01f8e4.sysid}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=afe08d0687340110aae764280cbb352c^sys_idNOT IN6014992c87010110aae764280cbb3521,73a6112087410110aae764280cbb350a,77e08d0687340110aae764280cbb356f,77e08d0687340110aae764280cbb3575,f3e08d0687340110aae764280cbb356b,fbe08d0687340110aae764280cbb3572"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5b86ca0687380110aae764280cbb3522</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:10:08</sys_created_on>
+        <sys_id>6014992c87010110aae764280cbb3521</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
+        <ui_id>578f3fe7-b2c3-463a-9d2e-0dbcae3d7f2b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6014992c87010110aae764280cbb3521"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6014992c87010110aae764280cbb3521</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:10:08</sys_created_on>
+        <sys_id>ec14992c87010110aae764280cbb3523</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:10:08</sys_updated_on>
+        <value>Instance selection is prod </value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6014992c87010110aae764280cbb3521"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>6014992c87010110aae764280cbb3521</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:10:08</sys_created_on>
+        <sys_id>6c14992c87010110aae764280cbb3523</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:10:08</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f0a1eab3-05e3-4940-8996-917fad2adf13.instance}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>6014992c87010110aae764280cbb3521</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:10:08</sys_created_on>
+        <sys_id>a814992c87010110aae764280cbb3523</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:10:08</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">40a61dec87010110aae764280cbb3539</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>578f3fe7-b2c3-463a-9d2e-0dbcae3d7f2b</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>73a6112087410110aae764280cbb350a</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
+        <ui_id>a12724d8-c797-4514-b626-42ab4ded9a7f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=73a6112087410110aae764280cbb350a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>73a6112087410110aae764280cbb350a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>ffa6112087410110aae764280cbb350c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <value>Approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=73a6112087410110aae764280cbb350a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>73a6112087410110aae764280cbb350a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>7fa6112087410110aae764280cbb350c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{5d345cdb-dc85-4381-af81-4628c604e71e.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>73a6112087410110aae764280cbb350a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 08:21:33</sys_created_on>
+        <sys_id>bba6112087410110aae764280cbb350c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 08:21:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">19e62c0e87b00110aae764280cbb35af</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>77e08d0687340110aae764280cbb356f</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
+        <ui_id>60c57930-8c30-4fd2-bec2-67c08ec0445d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=77e08d0687340110aae764280cbb356f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>77e08d0687340110aae764280cbb356f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>f3e08d0687340110aae764280cbb3572</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:42</sys_updated_on>
+        <value>Approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=77e08d0687340110aae764280cbb356f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>77e08d0687340110aae764280cbb356f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>73e08d0687340110aae764280cbb3572</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:42</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{13df4520-6e14-4a6c-93c3-c4a323b919c6.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>77e08d0687340110aae764280cbb356f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>bfe08d0687340110aae764280cbb3571</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:42</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6528a08e87b00110aae764280cbb35f8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>77e08d0687340110aae764280cbb3575</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
+        <ui_id>11208d92-c040-4c6e-9d71-c7f53b2a6aa8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=77e08d0687340110aae764280cbb3575"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>77e08d0687340110aae764280cbb3575</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>bbe08d0687340110aae764280cbb3584</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:42</sys_updated_on>
+        <value>If Rejected</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=77e08d0687340110aae764280cbb3575"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>77e08d0687340110aae764280cbb3575</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>3be08d0687340110aae764280cbb3584</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:42</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{13df4520-6e14-4a6c-93c3-c4a323b919c6.approval_state}}!=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>77e08d0687340110aae764280cbb3575</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>77e08d0687340110aae764280cbb3584</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:42</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d9e62c0e87b00110aae764280cbb35a1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>f3e08d0687340110aae764280cbb356b</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
+        <ui_id>b124af25-b1de-47dd-9e97-bf5cd4d98b38</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f3e08d0687340110aae764280cbb356b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f3e08d0687340110aae764280cbb356b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>7fe08d0687340110aae764280cbb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:42</sys_updated_on>
+        <value>Instance selection</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f3e08d0687340110aae764280cbb356b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f3e08d0687340110aae764280cbb356b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>fbe08d0687340110aae764280cbb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:42</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f0a1eab3-05e3-4940-8996-917fad2adf13.instance}}=1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>f3e08d0687340110aae764280cbb356b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>3be08d0687340110aae764280cbb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:42</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ad28a08e87b00110aae764280cbb35f5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Add User to Group">afe08d0687340110aae764280cbb352c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>60c57930-8c30-4fd2-bec2-67c08ec0445d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>fbe08d0687340110aae764280cbb3572</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-17 12:23:56</sys_updated_on>
+        <ui_id>7b47d337-d562-40d8-b841-f0a92ac180ba</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fbe08d0687340110aae764280cbb3572"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_afe08d0687340110aae764280cbb352c^sys_idNOT IN63e08d0687340110aae764280cbb355b,6be08d0687340110aae764280cbb3564"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_afe08d0687340110aae764280cbb352c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>63e08d0687340110aae764280cbb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_afe08d0687340110aae764280cbb352c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:21:42</sys_created_on>
+        <sys_id>6be08d0687340110aae764280cbb3564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Item</sys_name>
+        <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:21:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>b0c0090687340110aae764280cbb35ee</sys_id>
+        <latest_snapshot>afe08d0687340110aae764280cbb352c</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

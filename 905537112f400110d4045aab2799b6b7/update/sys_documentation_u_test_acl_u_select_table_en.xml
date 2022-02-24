@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_select_table" label="Select Table" language="en" table="u_test_acl">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_select_table</element>
+            <help/>
+            <hint/>
+            <label>Select Table</label>
+            <language>en</language>
+            <name>u_test_acl</name>
+            <plural>Select Tables</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-02 09:18:47</sys_created_on>
+            <sys_id>78c67a6387514110aae764280cbb3501</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Select Table</sys_name>
+            <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
+            <sys_update_name>sys_documentation_u_test_acl_u_select_table_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-02 09:18:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
