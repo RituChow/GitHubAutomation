@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_test3" table="u_testing_table">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_active" table="u_access_check_table">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,10 +14,10 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>test3</column_label>
+        <column_label>Active</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>true</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,15 +27,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_test3</element>
+        <element>u_active</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>u_testing_table</name>
+        <name>u_access_check_table</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-22 13:18:22</sys_created_on>
-        <sys_id>b44d6ec62f310110d4045aab2799b6e9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>test3</sys_name>
+        <sys_created_on>2022-02-01 16:18:49</sys_created_on>
+        <sys_id>2e3dc71b2f550110d4045aab2799b6a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Active</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name>sys_dictionary_u_testing_table_u_test3</sys_update_name>
+        <sys_update_name>sys_dictionary_u_access_check_table_u_active</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-22 13:18:22</sys_updated_on>
+        <sys_updated_on>2022-02-01 16:19:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
