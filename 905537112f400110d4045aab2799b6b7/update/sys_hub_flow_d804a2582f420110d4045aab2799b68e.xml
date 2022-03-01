@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d804a2582f420110d4045aab2799b68e</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Publish changes to GitHub</sys_name>
         <sys_overrides/>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name>sys_hub_flow_d804a2582f420110d4045aab2799b68e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:55</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:15</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=d804a2582f420110d4045aab2799b68e"/>
@@ -69,10 +69,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:13</sys_created_on>
         <sys_id>2ac76a902f820110d4045aab2799b63f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:51</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:13</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -247,14 +247,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:13</sys_created_on>
         <sys_id>2ac72a902f820110d4045aab2799b6fa</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:50</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -328,14 +328,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:13</sys_created_on>
         <sys_id>6ec76a902f820110d4045aab2799b626</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:51</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -363,10 +363,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:16</sys_created_on>
         <sys_id>1bc76a902f820110d4045aab2799b6e4</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:53</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:14</sys_updated_on>
         <ui_id>458640c4-de75-4ea3-a3ad-b61bdebe3900</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1bc76a902f820110d4045aab2799b6e4"/>
@@ -436,10 +436,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:13</sys_created_on>
         <sys_id>2ac76a902f820110d4045aab2799b644</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:51</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:13</sys_updated_on>
         <ui_id>b7e06dce-2a57-48e9-9b91-44b24dcaf234</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2ac76a902f820110d4045aab2799b644"/>
@@ -523,10 +523,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:14</sys_created_on>
         <sys_id>36c76a902f820110d4045aab2799b66d</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:51</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:13</sys_updated_on>
         <ui_id>6302177e-094e-4f7b-a080-6d9ca85c6b1e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=36c76a902f820110d4045aab2799b66d"/>
@@ -596,10 +596,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:07:43</sys_created_on>
         <sys_id>43898f502f460110d4045aab2799b612</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:54</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:15</sys_updated_on>
         <ui_id>6bb53ef0-ea81-421f-9898-4a81050a6d4a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=43898f502f460110d4045aab2799b612"/>
@@ -669,10 +669,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:15</sys_created_on>
         <sys_id>47c76a902f820110d4045aab2799b6c7</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:52</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:14</sys_updated_on>
         <ui_id>a3ba621a-50d8-439c-8211-fab6a23e1082</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=47c76a902f820110d4045aab2799b6c7"/>
@@ -742,10 +742,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:07:43</sys_created_on>
         <sys_id>53898f502f460110d4045aab2799b63e</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:55</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:15</sys_updated_on>
         <ui_id>b1c40e2f-e7e1-4797-81fc-bff6d3b39074</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=53898f502f460110d4045aab2799b63e"/>
@@ -815,10 +815,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:14</sys_created_on>
         <sys_id>7ec76a902f820110d4045aab2799b661</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:51</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:13</sys_updated_on>
         <ui_id>df210834-ef05-4cec-9daa-668617b982a7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7ec76a902f820110d4045aab2799b661"/>
@@ -914,10 +914,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:16</sys_created_on>
         <sys_id>93c76a902f820110d4045aab2799b6da</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:52</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:14</sys_updated_on>
         <ui_id>1a77cf6e-cb3e-43bf-86db-a0964bd431f4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=93c76a902f820110d4045aab2799b6da"/>
@@ -1011,10 +1011,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:16</sys_created_on>
         <sys_id>9bc76a902f820110d4045aab2799b6ec</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:55</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:15</sys_updated_on>
         <ui_id>e6fa4021-a895-4c6d-a7e9-e96c683639e4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9bc76a902f820110d4045aab2799b6ec"/>
@@ -1084,10 +1084,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:15</sys_created_on>
         <sys_id>cbc76a902f820110d4045aab2799b698</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:52</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:14</sys_updated_on>
         <ui_id>f2c4b730-be6e-4b7a-b095-bd3abeba87bf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cbc76a902f820110d4045aab2799b698"/>
@@ -1143,10 +1143,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:47:02</sys_created_on>
         <sys_id>4b8257502f860110d4045aab2799b685</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:54</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:15</sys_updated_on>
         <ui_id>ecce38fc-3c57-4557-9cd2-8b6ee910cf46</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4b8257502f860110d4045aab2799b685"/>
@@ -1350,10 +1350,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:46:59</sys_created_on>
         <sys_id>d28217502f860110d4045aab2799b6e9</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:53</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:14</sys_updated_on>
         <ui_id>1321dff8-3632-449d-87cb-f7283e70ec56</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d28217502f860110d4045aab2799b6e9"/>
@@ -1580,10 +1580,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:07:42</sys_created_on>
         <sys_id>0f898f502f460110d4045aab2799b60a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:54</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:15</sys_updated_on>
         <ui_id>ee64be37-3abc-4405-a1ed-afcf1a8e355e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1610,11 +1610,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:07:42</sys_created_on>
         <sys_id>8f898f502f460110d4045aab2799b60d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:47:01</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:00:48</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{1321dff8-3632-449d-87cb-f7283e70ec56.status}}=3^NQ{{1321dff8-3632-449d-87cb-f7283e70ec56.status}}=4</value>
+        <value>{{1321dff8-3632-449d-87cb-f7283e70ec56.http_status}}!=200^NQ{{1321dff8-3632-449d-87cb-f7283e70ec56.http_status}}!=201</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -1649,10 +1649,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:07:43</sys_created_on>
         <sys_id>0f898f502f460110d4045aab2799b614</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:54</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:15</sys_updated_on>
         <ui_id>6b0609a2-bd8c-46b4-a4aa-418fd0f653f4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1680,10 +1680,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:07:43</sys_created_on>
         <sys_id>17898f502f460110d4045aab2799b637</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:55</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:15</sys_updated_on>
         <ui_id>5a353735-2c73-4a9a-9e65-f9db550a3379</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1710,11 +1710,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:07:43</sys_created_on>
         <sys_id>13898f502f460110d4045aab2799b63a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:47:03</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:00:48</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{ecce38fc-3c57-4557-9cd2-8b6ee910cf46.status}}=3^NQ{{ecce38fc-3c57-4557-9cd2-8b6ee910cf46.status}}=4</value>
+        <value>{{ecce38fc-3c57-4557-9cd2-8b6ee910cf46.http_status}}!=200^NQ{{ecce38fc-3c57-4557-9cd2-8b6ee910cf46.http_status}}!=201</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -1749,10 +1749,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:07:43</sys_created_on>
         <sys_id>17898f502f460110d4045aab2799b640</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:55</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:15</sys_updated_on>
         <ui_id>ba0b7b2d-93fd-44b1-a381-39b13604b573</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1779,10 +1779,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:16</sys_created_on>
         <sys_id>1fc76a902f820110d4045aab2799b6e6</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:53</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:14</sys_updated_on>
         <ui_id>ae263292-1531-408e-9e30-ee533d23b206</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1810,10 +1810,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:14</sys_created_on>
         <sys_id>36c76a902f820110d4045aab2799b665</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:51</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:13</sys_updated_on>
         <ui_id>3b9c8ff3-f453-4857-8b0a-eba7af105bac</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1879,10 +1879,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:15</sys_created_on>
         <sys_id>4bc76a902f820110d4045aab2799b6c9</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:52</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:14</sys_updated_on>
         <ui_id>b6e9f4c1-6ccb-409c-b1d0-d33867649dff</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1909,10 +1909,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:14</sys_created_on>
         <sys_id>bec76a902f820110d4045aab2799b66f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:52</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:14</sys_updated_on>
         <ui_id>23be083f-46d9-4ab1-96e6-94df334df06d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1940,10 +1940,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:15</sys_created_on>
         <sys_id>c3c76a902f820110d4045aab2799b69b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:52</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:14</sys_updated_on>
         <ui_id>7294865c-fa51-4bb2-890e-414c178b8760</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2010,10 +2010,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:40:16</sys_created_on>
         <sys_id>dbc76a902f820110d4045aab2799b6dd</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:53</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:14</sys_updated_on>
         <ui_id>86422fb8-3939-4126-9ee9-4adcaa913fae</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2116,11 +2116,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>882866d02f820110d4045aab2799b623</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:50</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:13</sys_updated_on>
         <trigger display_value="">c02866d02f820110d4045aab2799b623</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -2151,7 +2151,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>230862d02f820110d4045aab2799b621</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2159,7 +2159,7 @@
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:28</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:53</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=230862d02f820110d4045aab2799b621"/>
@@ -2174,10 +2174,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:30</sys_created_on>
         <sys_id>d518a2d02f820110d4045aab2799b67b</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:50</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:02:13</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -2352,14 +2352,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:24</sys_created_on>
         <sys_id>330862d02f820110d4045aab2799b660</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:25</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2433,14 +2433,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:23</sys_created_on>
         <sys_id>eb0862d02f820110d4045aab2799b623</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:25</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2468,10 +2468,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:29</sys_created_on>
         <sys_id>1d18a2d02f820110d4045aab2799b64e</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:26</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:51</sys_updated_on>
         <ui_id>458640c4-de75-4ea3-a3ad-b61bdebe3900</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1d18a2d02f820110d4045aab2799b64e"/>
@@ -2541,10 +2541,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:27</sys_created_on>
         <sys_id>241862d02f820110d4045aab2799b6d9</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:25</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:50</sys_updated_on>
         <ui_id>df210834-ef05-4cec-9daa-668617b982a7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=241862d02f820110d4045aab2799b6d9"/>
@@ -2640,10 +2640,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:29</sys_created_on>
         <sys_id>4918a2d02f820110d4045aab2799b648</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:26</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:51</sys_updated_on>
         <ui_id>1a77cf6e-cb3e-43bf-86db-a0964bd431f4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4918a2d02f820110d4045aab2799b648"/>
@@ -2737,10 +2737,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:25</sys_created_on>
         <sys_id>501862d02f820110d4045aab2799b6b8</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:25</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:50</sys_updated_on>
         <ui_id>b7e06dce-2a57-48e9-9b91-44b24dcaf234</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=501862d02f820110d4045aab2799b6b8"/>
@@ -2824,10 +2824,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:27</sys_created_on>
         <sys_id>641862d02f820110d4045aab2799b6ed</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:26</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:51</sys_updated_on>
         <ui_id>6302177e-094e-4f7b-a080-6d9ca85c6b1e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=641862d02f820110d4045aab2799b6ed"/>
@@ -2897,10 +2897,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:28</sys_created_on>
         <sys_id>7c18a2d02f820110d4045aab2799b617</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:26</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:51</sys_updated_on>
         <ui_id>f2c4b730-be6e-4b7a-b095-bd3abeba87bf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7c18a2d02f820110d4045aab2799b617"/>
@@ -2956,10 +2956,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:08:44</sys_created_on>
         <sys_id>82c9c7902f460110d4045aab2799b6bf</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:27</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:52</sys_updated_on>
         <ui_id>b1c40e2f-e7e1-4797-81fc-bff6d3b39074</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=82c9c7902f460110d4045aab2799b6bf"/>
@@ -3029,10 +3029,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:30</sys_created_on>
         <sys_id>9918a2d02f820110d4045aab2799b679</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:27</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:52</sys_updated_on>
         <ui_id>e6fa4021-a895-4c6d-a7e9-e96c683639e4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9918a2d02f820110d4045aab2799b679"/>
@@ -3102,10 +3102,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:08:43</sys_created_on>
         <sys_id>bdc9c7902f460110d4045aab2799b696</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:27</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:52</sys_updated_on>
         <ui_id>6bb53ef0-ea81-421f-9898-4a81050a6d4a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bdc9c7902f460110d4045aab2799b696"/>
@@ -3175,10 +3175,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:28</sys_created_on>
         <sys_id>c118a2d02f820110d4045aab2799b61d</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:26</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:51</sys_updated_on>
         <ui_id>a3ba621a-50d8-439c-8211-fab6a23e1082</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c118a2d02f820110d4045aab2799b61d"/>
@@ -3248,10 +3248,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:48:24</sys_created_on>
         <sys_id>c3d293902f860110d4045aab2799b665</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:27</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:52</sys_updated_on>
         <ui_id>1321dff8-3632-449d-87cb-f7283e70ec56</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c3d293902f860110d4045aab2799b665"/>
@@ -3469,10 +3469,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:48:24</sys_created_on>
         <sys_id>d7d293902f860110d4045aab2799b6ad</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:27</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:52</sys_updated_on>
         <ui_id>ecce38fc-3c57-4557-9cd2-8b6ee910cf46</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d7d293902f860110d4045aab2799b6ad"/>
@@ -3685,10 +3685,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:25</sys_created_on>
         <sys_id>001862d02f820110d4045aab2799b694</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:26</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:51</sys_updated_on>
         <ui_id>86422fb8-3939-4126-9ee9-4adcaa913fae</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3754,10 +3754,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:25</sys_created_on>
         <sys_id>081862d02f820110d4045aab2799b6b0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:26</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:51</sys_updated_on>
         <ui_id>ae263292-1531-408e-9e30-ee533d23b206</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3784,10 +3784,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:08:45</sys_created_on>
         <sys_id>1ac9c7902f460110d4045aab2799b6f1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:27</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:52</sys_updated_on>
         <ui_id>6b0609a2-bd8c-46b4-a4aa-418fd0f653f4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3815,10 +3815,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:24</sys_created_on>
         <sys_id>330862d02f820110d4045aab2799b67a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:26</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:50</sys_updated_on>
         <ui_id>3b9c8ff3-f453-4857-8b0a-eba7af105bac</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3884,10 +3884,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:25</sys_created_on>
         <sys_id>441862d02f820110d4045aab2799b691</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:26</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:51</sys_updated_on>
         <ui_id>b6e9f4c1-6ccb-409c-b1d0-d33867649dff</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3914,10 +3914,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:24</sys_created_on>
         <sys_id>4c1862d02f820110d4045aab2799b68a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:26</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:51</sys_updated_on>
         <ui_id>23be083f-46d9-4ab1-96e6-94df334df06d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3945,10 +3945,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:08:45</sys_created_on>
         <sys_id>92c9c7902f460110d4045aab2799b6f4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:27</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:52</sys_updated_on>
         <ui_id>5a353735-2c73-4a9a-9e65-f9db550a3379</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3975,11 +3975,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:08:45</sys_created_on>
         <sys_id>9ec9c7902f460110d4045aab2799b6f6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:24</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:49</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{ecce38fc-3c57-4557-9cd2-8b6ee910cf46.status}}=3^NQ{{ecce38fc-3c57-4557-9cd2-8b6ee910cf46.status}}=4</value>
+        <value>{{ecce38fc-3c57-4557-9cd2-8b6ee910cf46.http_status}}!=200^NQ{{ecce38fc-3c57-4557-9cd2-8b6ee910cf46.http_status}}!=201</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -4015,10 +4015,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 12:41:24</sys_created_on>
         <sys_id>c81862d02f820110d4045aab2799b68d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:26</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:51</sys_updated_on>
         <ui_id>7294865c-fa51-4bb2-890e-414c178b8760</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4084,10 +4084,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:08:45</sys_created_on>
         <sys_id>dac9c7902f460110d4045aab2799b6f7</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:27</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:52</sys_updated_on>
         <ui_id>ba0b7b2d-93fd-44b1-a381-39b13604b573</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4115,10 +4115,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:08:45</sys_created_on>
         <sys_id>dec9c7902f460110d4045aab2799b6ed</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:27</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:52</sys_updated_on>
         <ui_id>ee64be37-3abc-4405-a1ed-afcf1a8e355e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4145,11 +4145,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-01 15:08:45</sys_created_on>
         <sys_id>dac9c7902f460110d4045aab2799b6f0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:48:23</sys_updated_on>
+        <sys_updated_on>2022-03-01 16:01:49</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{1321dff8-3632-449d-87cb-f7283e70ec56.status}}=3^NQ{{1321dff8-3632-449d-87cb-f7283e70ec56.status}}=4</value>
+        <value>{{1321dff8-3632-449d-87cb-f7283e70ec56.http_status}}!=200^NQ{{1321dff8-3632-449d-87cb-f7283e70ec56.http_status}}!=201</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
