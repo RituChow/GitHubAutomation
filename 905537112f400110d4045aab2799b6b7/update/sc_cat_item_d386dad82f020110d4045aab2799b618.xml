@@ -14,7 +14,7 @@
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Add changes to github">156df4f287b10110aae764280cbb35a4</flow_designer_flow>
+        <flow_designer_flow display_value="merge branch with develop and master in github">bb9152942f020110d4045aab2799b6d4</flow_designer_flow>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -27,7 +27,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Merge development changes to GitHub</name>
+        <name>Merge patch changes to GitHub</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -44,7 +44,7 @@
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=d644780b2f0001104370a55df699b68a&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=d386dad82f020110d4045aab2799b618&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
@@ -61,16 +61,16 @@
         <state/>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-30 07:26:11</sys_created_on>
-        <sys_id>d644780b2f0001104370a55df699b68a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Merge development changes to GitHub</sys_name>
+        <sys_created_on>2022-03-01 11:24:54</sys_created_on>
+        <sys_id>d386dad82f020110d4045aab2799b618</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Merge patch changes to GitHub</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
-        <sys_update_name>sc_cat_item_d644780b2f0001104370a55df699b68a</sys_update_name>
+        <sys_update_name>sc_cat_item_d386dad82f020110d4045aab2799b618</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-24 15:33:55</sys_updated_on>
+        <sys_updated_on>2022-03-01 13:05:12</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
@@ -82,22 +82,22 @@
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=d644780b2f0001104370a55df699b68a"/>
-    <fx_price action="delete_multiple" query="id=d644780b2f0001104370a55df699b68a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d386dad82f020110d4045aab2799b618"/>
+    <fx_price action="delete_multiple" query="id=d386dad82f020110d4045aab2799b618"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>d644780b2f0001104370a55df699b68a</id>
+        <id>d386dad82f020110d4045aab2799b618</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-30 07:26:11</sys_created_on>
-        <sys_id>573738032f0001104370a55df699b666</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2022-03-01 11:24:54</sys_created_on>
+        <sys_id>9b86ded82f020110d4045aab2799b64c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-30 07:26:11</sys_updated_on>
+        <sys_updated_on>2022-03-01 11:24:57</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
@@ -105,16 +105,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>recurring_price</field>
-        <id>d644780b2f0001104370a55df699b68a</id>
+        <id>d386dad82f020110d4045aab2799b618</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-30 07:26:11</sys_created_on>
-        <sys_id>5f37b0cb2f0001104370a55df699b6fb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2022-03-01 11:24:55</sys_created_on>
+        <sys_id>e386ded82f020110d4045aab2799b64e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-30 07:26:11</sys_updated_on>
+        <sys_updated_on>2022-03-01 11:24:57</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Apply development changes to GitHub">d644780b2f0001104370a55df699b68a</cat_item>
+        <cat_item display_value="Merge development changes to GitHub">d644780b2f0001104370a55df699b68a</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -35,12 +35,12 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>feature_branch</name>
-        <order>3</order>
+        <order>500</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -68,14 +68,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-30 07:46:59</sys_created_on>
         <sys_id>1deb780b2f0001104370a55df699b6a0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Feature Branch</sys_name>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name>item_option_new_1deb780b2f0001104370a55df699b6a0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-30 07:51:44</sys_updated_on>
+        <sys_updated_on>2022-02-24 14:17:33</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
