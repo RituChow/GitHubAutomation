@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="update_synch=true" extends="sys_metadata" label="Access check table" max_length="40" name="u_access_check_table" type="collection">
+    <element attributes="update_synch=true" extends="sys_metadata" label="Access check table" max_length="40" name="u_access_check_table" sizeclass="1" type="collection">
         <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
         <element label="Name" max_length="100" name="u_name" type="string"/>
         <element label="Select Table" max_length="80" name="u_select_table" type="table_name"/>
