@@ -8,7 +8,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Deploy application in instance">aa80003c87064110aae764280cbb3557</cat_item>
-        <cat_variable/>
+        <cat_variable>IO:403f8c7487464110aae764280cbb3531</cat_variable>
         <condition/>
         <description/>
         <field/>
@@ -17,19 +17,30 @@
         <messages/>
         <name>populate Application</name>
         <order/>
-        <script><![CDATA[function onLoad() 
-{
-	//get all applications from sys_app table of development instance
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading || newValue == '') {
+		g_form.clearOptions('select_your_application');
+		g_form.addOption('select_your_application',"-- None --","-- None --");
+		return;
+	}
+	g_form.clearOptions('select_your_application');
+	g_form.addOption('select_your_application',"-- None --","-- None --");
+
+	//Type appropriate comment here, and begin script below
 	var ga = new GlideAjax('DeploymentAutomationUtil');
 	ga.addParam('sysparm_name','populateAllApps');
+	ga.addParam('sysparm_instance',newValue);
+	ga.addParam('sysparm_display',g_form.getDisplayValue('target_instance'));
 	ga.getXML(responseCallBack);
 }
 
 function responseCallBack(response) {
+	g_form.clearOptions('select_your_application');
+	g_form.addOption('select_your_application',"-- None --","-- None --");
 
 	//answer will have the app details in the format - appname:appsys_id
 	var answer = response.responseXML.documentElement.getAttribute('answer');
-	
+
 	var allAppNamesWithSysID = [];
 	allAppNamesWithSysID = answer.split(",");
 
@@ -42,14 +53,16 @@ function responseCallBack(response) {
 		var value = appSysID+","+version+","+scope;
 		g_form.addOption('select_your_application',value,appName);
 	}
-}]]></script>
+}
+
+]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-03 07:55:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5499f77487828110aae764280cbb3549</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>populate Application</sys_name>
         <sys_overrides/>
         <sys_package display_value="GitHub Automation" source="905537112f400110d4045aab2799b6b7">905537112f400110d4045aab2799b6b7</sys_package>
@@ -57,9 +70,9 @@ function responseCallBack(response) {
         <sys_scope display_value="GitHub Automation">905537112f400110d4045aab2799b6b7</sys_scope>
         <sys_update_name>catalog_script_client_5499f77487828110aae764280cbb3549</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-03 07:56:35</sys_updated_on>
+        <sys_updated_on>2022-03-03 14:00:43</sys_updated_on>
         <table/>
-        <type>onLoad</type>
+        <type>onChange</type>
         <ui_type>10</ui_type>
         <variable_set/>
         <view/>
